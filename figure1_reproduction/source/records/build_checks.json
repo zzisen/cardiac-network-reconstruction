@@ -1,0 +1,189 @@
+{
+  "canvas_mm": [
+    180,
+    120
+  ],
+  "png_dpi": 600,
+  "morphologies": [
+    {
+      "movie": "E3",
+      "crop_id": "E3_proximal_BFS24_closed_bbox",
+      "nodes": 28,
+      "edges": 29,
+      "crop": "all nodes and induced edges within deterministic closed ROI",
+      "uniform_scale": 6.796287045105808
+    },
+    {
+      "movie": "E4",
+      "crop_id": "E4_proximal_BFS24_closed_bbox",
+      "nodes": 33,
+      "edges": 36,
+      "crop": "all nodes and induced edges within deterministic closed ROI",
+      "uniform_scale": 7.094135427078684
+    },
+    {
+      "movie": "E5",
+      "crop_id": "E5_proximal_BFS24_closed_bbox",
+      "nodes": 44,
+      "edges": 47,
+      "crop": "all nodes and induced edges within deterministic closed ROI",
+      "uniform_scale": 5.589455090256871
+    }
+  ],
+  "palette": {
+    "ink": "#3F4548",
+    "teal": "#16A6A1",
+    "ochre": "#F2B33D",
+    "root": "#E5543D",
+    "pale": "#D8E0E3",
+    "pale_edge": "#D8E0E3",
+    "orange": "#F47C20",
+    "white": "#FFFFFF"
+  },
+  "panel_b_translation_mm": 4.5,
+  "label_color_audit": [
+    {
+      "label": "r",
+      "color": "#E5543D",
+      "position": [
+        285,
+        659
+      ]
+    },
+    {
+      "label": "r",
+      "color": "#E5543D",
+      "position": [
+        830.0,
+        659.0
+      ]
+    },
+    {
+      "label": "1",
+      "color": "#3F4548",
+      "position": [
+        897.0,
+        618.0
+      ]
+    },
+    {
+      "label": "2",
+      "color": "#3F4548",
+      "position": [
+        1042.0,
+        589.0
+      ]
+    },
+    {
+      "label": "3",
+      "color": "#3F4548",
+      "position": [
+        1042.0,
+        681.0
+      ]
+    },
+    {
+      "label": "r",
+      "color": "#E5543D",
+      "position": [
+        1365.0,
+        659.0
+      ]
+    },
+    {
+      "label": "r",
+      "color": "#E5543D",
+      "position": [
+        946.5,
+        763
+      ]
+    },
+    {
+      "label": "1",
+      "color": "#3F4548",
+      "position": [
+        969.5,
+        763
+      ]
+    },
+    {
+      "label": "2",
+      "color": "#3F4548",
+      "position": [
+        992.5,
+        763
+      ]
+    },
+    {
+      "label": "3",
+      "color": "#3F4548",
+      "position": [
+        1015.5,
+        763
+      ]
+    },
+    {
+      "label": "r",
+      "color": "#E5543D",
+      "position": [
+        851.0,
+        1007.0
+      ]
+    },
+    {
+      "label": "1",
+      "color": "#3F4548",
+      "position": [
+        901.0,
+        966.0
+      ]
+    },
+    {
+      "label": "2",
+      "color": "#3F4548",
+      "position": [
+        1025.0,
+        946.2
+      ]
+    },
+    {
+      "label": "3",
+      "color": "#3F4548",
+      "position": [
+        1025.0,
+        1019.8
+      ]
+    }
+  ],
+  "morphology_size_unchanged_from_v2": true,
+  "single_blue_green": "#16A6A1",
+  "unknown_topology_known_nodes": {
+    "structure_node_ids": [
+      159,
+      49,
+      62,
+      240,
+      127
+    ],
+    "recovery_node_ids": [
+      159,
+      49,
+      62,
+      240,
+      127
+    ],
+    "candidate_edge_count": 10,
+    "recovered_edge_count": 5,
+    "same_relative_node_geometry": true
+  },
+  "foreground_edge_endpoint_check": "PASS",
+  "no_pale_node_on_dark_edge": "PASS",
+  "source_adjacency_checks": "PASS",
+  "text_within_canvas": "PASS",
+  "all_graph_elements_vector": true,
+  "font": "C:\\Windows\\Fonts\\arial.ttf",
+  "python": "3.10.18",
+  "matplotlib": "3.10.0",
+  "numpy": "2.2.5",
+  "schematic_signals": "Symbolic wave/profile/intervention glyphs; not measured observations"
+}

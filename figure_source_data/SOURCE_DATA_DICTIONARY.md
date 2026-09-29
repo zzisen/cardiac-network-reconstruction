@@ -1,0 +1,33 @@
+# Source Data dictionary
+
+## Navigation and provenance
+
+`Figure1_source_data.csv` through `Figure4_source_data.csv` are UTF-8 long-form tables, partitioned by `figure`, `panel` and `record_type`. They retain observations, graph metadata and summaries in one file per figure. Blank/nonapplicable fields are written as `NA`; NA never means zero. Original frozen CSV/JSON files are preserved under `inputs/`; full Figure 1 inputs, crop selection and generator are in `figure1_reproduction/`. `FIGURE_PANEL_SOURCE_MAP.csv` maps every delivered panel.
+
+`source_path` is relative to `inputs/` unless it begins with `figure1_reproduction/`, in which case it is relative to the package root. `source_sha256` identifies that exact input. Figure 2 forward records cite the original forward-model script; the frozen motif, profile and matrix records specify the additional inputs. The generator implements only those forward equations and imports no optimizer. The archived scripts in `inputs/code/` are provenance, not an instruction to run them.
+
+## Shared columns
+
+- `record_type`: raw, summary, forward, node, edge, model, exact_record, query_schedule, design, candidate_edge or held_out_truth_edge; Figure 1 also has schematic node/edge records.
+- `source_row_index`: zero-based data-row index in the original CSV, retained after filtering. `case_id` joins the available movie, node count, design, noise, setting, draw, replicate, seed and cutoff fields. It is a computational identity, not a biological subject ID.
+- `filter`: exact inclusion rule. No finite error is removed on the basis of convergence.
+- `metric`, `raw_value`, `display_value`, `display_unit`, `transform`: raw relative matrix errors are Frobenius-norm ratios. Percent display is exactly `100 * raw_value`; F1 and response values remain dimensionless.
+- Summary columns `raw_median/q25/q75/p90` preserve ratios; corresponding `display_*` columns use plot units. Quantiles use pandas linear interpolation. Figure 2e and Figure 3 use median/IQR; Figure 4 uses median-to-p90 **one-sided** intervals. These are not confidence intervals. Additional quantiles are supplied for traceability even where not drawn.
+- `total_count`, `finite_count`, `converged_count`: attempted, numerically scored and optimizer-converged counts are separate. `fit_success` and `status` preserve the source diagnostics; convergence is not accuracy.
+- `noise_fraction`: standard-deviation fraction; 0.001 means 0.1%. `noise_percent`, where present, is the original corresponding display percentage.
+- `nominal_query_count`: ideal/design count. `actual_query_count`: acquired reads in the retained record. For exact five-node cases nominal is 20 even when refusal occurs sooner. Profile repetitions and scalar thresholds for unknown-topology recovery are different observation contracts and do not share a cost axis.
+- `movie`, `n`, `draw_id`/`draw`, `replicate`, `seed`, `setting_id`, `condition`, `ensemble`, `scenario`, `design` preserve the original keys. Internal setting IDs are omitted from artwork, not discarded from data.
+
+## Figure-specific interpretation
+
+**Figure 1:** Panel a uses actual local-crop coordinates in pixels, original node IDs and detected edges, including persistence. Crops contain E3: 28 nodes/29 edges; E4: 33/36; E5: 44/47. Selection windows and all full-graph inputs are in `figure1_reproduction/source/`. Panel b coordinates are schematic, not additional measured morphology. Its path is a mathematical control; branch topology is the frozen E5 motif; unknown-topology example uses the same five E3 states above and below. The full reproducible script retains the illustrative waveform/profile/intervention glyph definitions; those glyphs are not numerical observations. The a examples and b regimes do not correspond one-to-one.
+
+**Figure 2:** Original E5 node order `[448,446,408,463]` maps to `[r,1,2,3]`; actual relative coordinates are plotted isotropically. Persistence is a detection attribute, not coupling. C is diagonal `[0.92,1.08,0.86,1.15]`. Daughter exchange permutes J, not C. Default masks are `[0,1,0,0]` and `[0,0,1,0]`; only the latter is plotted in c. `added_root_power_P2` is treated-minus-common-background power. `coherent_real/imag/abs` come from the same four frozen frequencies. The source frequency CSV is printed to finite precision; the full-precision forward export agrees within 6×10⁻¹¹. The exact-check table is retained, never refitted. In e, all 20 seeds per setting enter finite-error summaries, including seed 91019 in S11 with `fit_success=False`. Display jitter is fixed by an independent rendering seed and changes x coordinates only.
+
+**Figure 3:** Primary population is **n=5 only**, 3 movies × 2 mechanics draws × 4 noise replicates = 24 per design/noise group, 360 rows across 3 designs × 5 noises. Actual original numerical tables also contain n=4/6 controls, which are excluded. Root index is 0. Panel a graph positions are a conceptual arrangement of fixed identities; all ten candidate edges are shown. The five held-out edges are provided as truth metadata but are not routed to the fit. The schedules list growth, shunt vectors and retained sets in order; repeated baselines count as reads. Exact schedules are adaptive and are not fabricated as fixed 20-row records. Refused cases have no estimate; their errors and support scores remain NA. Panel e draws only the pre-existing replay classification table at noise 0.001 and cutoffs 0.15/0.20/0.25/0.30/0.35. Cutoff 0.25 remains primary. The coefficient errors come from the retained primary table, not replayed coefficients.
+
+**Figure 4:** a/b reuse the exact same 24-case primary population and error values as Figure 3c/d. Mechanics panel c has 9 × 36 = 324 cases (3 movies × 4 draws × 3 replicates), all at 0.1% noise and 77 reads. Coupling, scale, heterogeneity and mapping parameters are included on raw rows. Intervention panel d has 10 × 5 = 50 cases on one E3 five-node graph. `repeat_factor=3` repeats the entire 77-read schedule, giving 231 reads; all other scenarios use 77. `finite_clamp_penalty` and `quantization_fraction` retain their source values. The latter uses the baseline threshold scale. Reference L medians of about 2.91%, 3.36% and 3.11% belong to these three distinct populations; they must not be substituted for one another.
+
+## Reproduction boundary
+
+These are model-generated mechanics, responses and thresholds on public morphology, not measurements of tissue mechanics. Error/source tables are not resampled, winsorized or subjected to new hypothesis tests. No fitted coefficient matrix is claimed to have been reproduced bitwise. All original input checksums and delivered-file checksums are included in `qa/`.

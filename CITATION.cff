@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its results, please cite the accompanying study
+  and this software release.
+title: >-
+  Structural priors determine the measurements needed to reconstruct mechanics
+  in cardiac myofibrillar networks
+version: "1.0.0"
+date-released: "2026-09-30"
+license: MIT
+type: software
+repository-code: https://github.com/zzisen/cardiac-network-reconstruction
+authors:
+  - family-names: Zhou
+    given-names: Zisen
+  - family-names: Zhang
+    given-names: Yaopu
+  - family-names: Pang
+    given-names: Haoran
+  - family-names: Qian
+    given-names: Minxuan
+  - family-names: Li
+    given-names: Zehua
+contact:
+  - name: Zisen Zhou

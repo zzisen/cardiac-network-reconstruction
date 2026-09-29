@@ -1,0 +1,11 @@
+numpy==2.2.5
+scipy==1.15.3
+pandas==2.3.1
+matplotlib==3.10.0
+networkx==3.1
+tifffile==2025.5.10
+trackpy==0.6.4
+opencv-python-headless==4.10.0.84
+scikit-image==0.25.2
+scikit-learn==1.6.1
+sympy==1.12

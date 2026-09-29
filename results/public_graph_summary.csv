@@ -1,0 +1,4 @@
+movie,frames,persistence_count_cutoff,nodes,edges,components,largest_component_nodes,cycle_rank,branchpoints_degree_ge_3
+E3,150,15,201,238,10,96,47,78
+E4,150,15,1356,1550,76,748,270,485
+E5,150,15,1267,1487,14,1189,234,478

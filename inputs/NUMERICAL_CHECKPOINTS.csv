@@ -1,0 +1,251 @@
+figure,panel,population,design,condition,noise_fraction,node_n,metric,statistic,expected_value,unit,source,note
+2,b/c/d,frozen E5 noiseless motif,known labelled tree,inverse_length,0,4,coherent_daughter_swap_max_abs,value,6.206335383118183e-17,"relative or normalized, not percent",results/k8_exact_checks.json,
+2,b/c/d,frozen E5 noiseless motif,known labelled tree,inverse_length,0,4,labelled_profile_swap_max_abs,value,0.007261465250456678,"relative or normalized, not percent",results/k8_exact_checks.json,
+2,b/c/d,frozen E5 noiseless motif,known labelled tree,inverse_length,0,4,known_tree_fit_relative_L_error,value,2.9476873166123604e-14,"relative or normalized, not percent",results/k8_exact_checks.json,
+2,d,frozen E5 noiseless motif,exact finite-frequency routine,inverse_length,0,4,reconstruction,status,Precision refusal,status,results/k8_exact_checks.json,
+2,b/c/d,frozen E5 noiseless motif,known labelled tree,constant,0,4,coherent_daughter_swap_max_abs,value,6.206335383118183e-17,"relative or normalized, not percent",results/k8_exact_checks.json,
+2,b/c/d,frozen E5 noiseless motif,known labelled tree,constant,0,4,labelled_profile_swap_max_abs,value,0.009371351083252155,"relative or normalized, not percent",results/k8_exact_checks.json,
+2,b/c/d,frozen E5 noiseless motif,known labelled tree,constant,0,4,known_tree_fit_relative_L_error,value,4.777105638690184e-14,"relative or normalized, not percent",results/k8_exact_checks.json,
+2,d,frozen E5 noiseless motif,exact finite-frequency routine,constant,0,4,reconstruction,status,Precision refusal,status,results/k8_exact_checks.json,
+2,e,20 paired seeds,known-tree fit,S01: profile_amplitude_limited_known,0.001,4,relative_L_error,median,20.30093839,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S01: profile_amplitude_limited_known,0.001,4,relative_L_error,q25,8.97424641775,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S01: profile_amplitude_limited_known,0.001,4,relative_L_error,q75,34.23218971,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S01: profile_amplitude_limited_known,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S02: profile_amplitude_limited_known,0.001,4,relative_L_error,median,8.855045488499998,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S02: profile_amplitude_limited_known,0.001,4,relative_L_error,q25,5.00744025975,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S02: profile_amplitude_limited_known,0.001,4,relative_L_error,q75,13.73707207,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S02: profile_amplitude_limited_known,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S03: profile_amplitude_limited_known,0.001,4,relative_L_error,median,4.797846943000001,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S03: profile_amplitude_limited_known,0.001,4,relative_L_error,q25,2.64466820975,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S03: profile_amplitude_limited_known,0.001,4,relative_L_error,q75,6.467461236249999,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S03: profile_amplitude_limited_known,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S04: profile_strength_miscalibrated,0.001,4,relative_L_error,median,24.701686379999998,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S04: profile_strength_miscalibrated,0.001,4,relative_L_error,q25,23.661521482499996,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S04: profile_strength_miscalibrated,0.001,4,relative_L_error,q75,28.648259870000004,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S04: profile_strength_miscalibrated,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S05: profile_strength_miscalibrated,0.001,4,relative_L_error,median,8.752958591,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S05: profile_strength_miscalibrated,0.001,4,relative_L_error,q25,6.769490745250001,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S05: profile_strength_miscalibrated,0.001,4,relative_L_error,q75,10.920582375,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S05: profile_strength_miscalibrated,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S06: profile_strength_miscalibrated,0.001,4,relative_L_error,median,7.5735351105,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S06: profile_strength_miscalibrated,0.001,4,relative_L_error,q25,6.2230847075,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S06: profile_strength_miscalibrated,0.001,4,relative_L_error,q75,8.3960010025,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S06: profile_strength_miscalibrated,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S07: profile_strength_miscalibrated,0.001,4,relative_L_error,median,17.914880319999998,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S07: profile_strength_miscalibrated,0.001,4,relative_L_error,q25,17.457307755000002,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S07: profile_strength_miscalibrated,0.001,4,relative_L_error,q75,18.469687195000002,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S07: profile_strength_miscalibrated,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S08: unmodelled_spatial_crosstalk,0.001,4,relative_L_error,median,5.8865668945000005,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S08: unmodelled_spatial_crosstalk,0.001,4,relative_L_error,q25,4.5581107115,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S08: unmodelled_spatial_crosstalk,0.001,4,relative_L_error,q75,10.8228138225,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S08: unmodelled_spatial_crosstalk,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S09: unmodelled_spatial_crosstalk,0.001,4,relative_L_error,median,18.439850555,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S09: unmodelled_spatial_crosstalk,0.001,4,relative_L_error,q25,15.1730464525,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S09: unmodelled_spatial_crosstalk,0.001,4,relative_L_error,q75,22.811996115,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S09: unmodelled_spatial_crosstalk,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S10: unmodelled_spatial_crosstalk,0.001,4,relative_L_error,median,57.26308496,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S10: unmodelled_spatial_crosstalk,0.001,4,relative_L_error,q25,48.78790392,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S10: unmodelled_spatial_crosstalk,0.001,4,relative_L_error,q75,71.4259745975,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S10: unmodelled_spatial_crosstalk,0.001,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S11: repeated_measurement_noise,0.003,4,relative_L_error,median,31.13263536,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S11: repeated_measurement_noise,0.003,4,relative_L_error,q25,19.4098843575,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S11: repeated_measurement_noise,0.003,4,relative_L_error,q75,50.339477519999996,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S11: repeated_measurement_noise,0.003,4,fit_success,count,19,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S12: repeated_measurement_noise,0.003,4,relative_L_error,median,29.473260055,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S12: repeated_measurement_noise,0.003,4,relative_L_error,q25,13.061017462499999,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S12: repeated_measurement_noise,0.003,4,relative_L_error,q75,33.356973535,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S12: repeated_measurement_noise,0.003,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+2,e,20 paired seeds,known-tree fit,S13: repeated_measurement_noise,0.003,4,relative_L_error,median,12.69193884,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S13: repeated_measurement_noise,0.003,4,relative_L_error,q25,7.64588252075,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S13: repeated_measurement_noise,0.003,4,relative_L_error,q75,16.649182737500002,percent,results/k8_morphology_sensitivity_replicates.csv,"All finite errors retained, including nonconverged fit"
+2,e,20 paired seeds,known-tree fit,S13: repeated_measurement_noise,0.003,4,fit_success,count,20,fits out of 20,results/k8_morphology_sensitivity_replicates.csv,
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0,5,L_relative_error,median,0.001083320878,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0,5,L_relative_error,p90,0.002202645614,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0,5,C_relative_error,median,0.00035456631750000004,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0,5,C_relative_error,p90,0.0004876192117,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0,5,topology_F1,median,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0,5,topology_F1,q25,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0,5,topology_F1,q75,1.0,unitless,results/k9_practical_replicates.csv,
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.0001,5,L_relative_error,median,0.28025766184999995,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.0001,5,L_relative_error,p90,1.0923912009999999,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.0001,5,C_relative_error,median,1.0116868975,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.0001,5,C_relative_error,p90,2.6354661951,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.0001,5,topology_F1,median,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.0001,5,topology_F1,q25,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.0001,5,topology_F1,q75,1.0,unitless,results/k9_practical_replicates.csv,
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.0003,5,L_relative_error,median,0.8789302916999999,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.0003,5,L_relative_error,p90,2.3690246122,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.0003,5,C_relative_error,median,3.027781684,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.0003,5,C_relative_error,p90,5.9514063217,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.0003,5,topology_F1,median,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.0003,5,topology_F1,q25,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.0003,5,topology_F1,q75,1.0,unitless,results/k9_practical_replicates.csv,
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.001,5,L_relative_error,median,2.9123742884999997,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.001,5,L_relative_error,p90,6.674063133399999,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.001,5,C_relative_error,median,13.531120365,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.001,5,C_relative_error,p90,22.37704366,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.001,5,topology_F1,median,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.001,5,topology_F1,q25,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.001,5,topology_F1,q75,1.0,unitless,results/k9_practical_replicates.csv,
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.003,5,L_relative_error,median,5.428145756499999,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.003,5,L_relative_error,p90,14.468952720999997,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.003,5,C_relative_error,median,30.376137685000003,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,high_redundancy,primary noise,0.003,5,C_relative_error,p90,72.68807417900001,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.003,5,topology_F1,median,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.003,5,topology_F1,q25,0.9090909091,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,high_redundancy,primary cutoff = 0.25,0.003,5,topology_F1,q75,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,minimal_exact_budget,exact state,0,5,fit_success,count,24,fits out of 24,results/k9_practical_replicates.csv,Noisy refusal is unscored NA
+3,d,primary: 24 simulated cases,minimal_exact_budget,exact state,0.0001,5,fit_success,count,0,fits out of 24,results/k9_practical_replicates.csv,Noisy refusal is unscored NA
+3,d,primary: 24 simulated cases,minimal_exact_budget,exact state,0.0003,5,fit_success,count,0,fits out of 24,results/k9_practical_replicates.csv,Noisy refusal is unscored NA
+3,d,primary: 24 simulated cases,minimal_exact_budget,exact state,0.001,5,fit_success,count,0,fits out of 24,results/k9_practical_replicates.csv,Noisy refusal is unscored NA
+3,d,primary: 24 simulated cases,minimal_exact_budget,exact state,0.003,5,fit_success,count,0,fits out of 24,results/k9_practical_replicates.csv,Noisy refusal is unscored NA
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0,5,L_relative_error,median,0.18769525569999998,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0,5,L_relative_error,p90,0.5342266134,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0,5,C_relative_error,median,0.11047987709,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0,5,C_relative_error,p90,0.3514142624,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0,5,topology_F1,median,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0,5,topology_F1,q25,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0,5,topology_F1,q75,1.0,unitless,results/k9_practical_replicates.csv,
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.0001,5,L_relative_error,median,3.2796690259999997,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.0001,5,L_relative_error,p90,7.707403818699998,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.0001,5,C_relative_error,median,2.5299172225,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.0001,5,C_relative_error,p90,5.6014962415,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.0001,5,topology_F1,median,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.0001,5,topology_F1,q25,1.0,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.0001,5,topology_F1,q75,1.0,unitless,results/k9_practical_replicates.csv,
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.0003,5,L_relative_error,median,7.85320717,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.0003,5,L_relative_error,p90,18.662318600999996,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.0003,5,C_relative_error,median,6.807736729999999,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.0003,5,C_relative_error,p90,36.99906051399999,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.0003,5,topology_F1,median,0.9090909091,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.0003,5,topology_F1,q25,0.8888888889,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.0003,5,topology_F1,q75,1.0,unitless,results/k9_practical_replicates.csv,
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.001,5,L_relative_error,median,21.86649695,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.001,5,L_relative_error,p90,40.389542459,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.001,5,C_relative_error,median,43.445191945,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.001,5,C_relative_error,p90,80.650426619,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.001,5,topology_F1,median,0.8888888889,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.001,5,topology_F1,q25,0.8249999999750001,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.001,5,topology_F1,q75,0.9090909091,unitless,results/k9_practical_replicates.csv,
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.003,5,L_relative_error,median,35.95548248,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.003,5,L_relative_error,p90,63.203768206999996,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.003,5,C_relative_error,median,73.418420285,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3/4,3c/4a/4b,primary: 24 simulated cases,moderate_redundancy,primary noise,0.003,5,C_relative_error,p90,293.39943521,percent,results/k9_practical_replicates.csv,Retained results; n=5 filter before summarizing
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.003,5,topology_F1,median,0.8,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.003,5,topology_F1,q25,0.7692307692,unitless,results/k9_practical_replicates.csv,
+3,d,primary: 24 simulated cases,moderate_redundancy,primary cutoff = 0.25,0.003,5,topology_F1,q75,0.8333333333,unitless,results/k9_practical_replicates.csv,
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.15,0.001,5,topology_F1,median,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.15,0.001,5,topology_F1,q25,0.9090909091,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.15,0.001,5,topology_F1,q75,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.20,0.001,5,topology_F1,median,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.20,0.001,5,topology_F1,q25,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.20,0.001,5,topology_F1,q75,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.25,0.001,5,topology_F1,median,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.25,0.001,5,topology_F1,q25,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.25,0.001,5,topology_F1,q75,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.30,0.001,5,topology_F1,median,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.30,0.001,5,topology_F1,q25,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.30,0.001,5,topology_F1,q75,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.35,0.001,5,topology_F1,median,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.35,0.001,5,topology_F1,q25,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,high_redundancy,cutoff=0.35,0.001,5,topology_F1,q75,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.15,0.001,5,topology_F1,median,0.8333333333,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.15,0.001,5,topology_F1,q25,0.7587412587,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.15,0.001,5,topology_F1,q75,0.9090909091,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.20,0.001,5,topology_F1,median,0.8333333333,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.20,0.001,5,topology_F1,q25,0.8,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.20,0.001,5,topology_F1,q75,0.9090909091,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.25,0.001,5,topology_F1,median,0.8888888889,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.25,0.001,5,topology_F1,q25,0.825,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.25,0.001,5,topology_F1,q75,0.9090909091,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.30,0.001,5,topology_F1,median,0.898989899,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.30,0.001,5,topology_F1,q25,0.8333333333,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.30,0.001,5,topology_F1,q75,0.9318181818,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.35,0.001,5,topology_F1,median,0.9090909091,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.35,0.001,5,topology_F1,q25,0.875,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+3,e,fixed-grid replay: 24 cases,moderate_redundancy,cutoff=0.35,0.001,5,topology_F1,q75,1.0,unitless,results/k9_support_cutoff_summary.csv,Classification-only source; primary cutoff remains 0.25
+4,c,36 fits per condition,high_redundancy,constant_edge_mapping,0.001,5,L_relative_error,median,1.9491357180000002,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,constant_edge_mapping,0.001,5,L_relative_error,p90,5.722434067,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,constant_edge_mapping,0.001,5,C_relative_error,median,8.460027066,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,constant_edge_mapping,0.001,5,C_relative_error,p90,38.33482389,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,constant_edge_mapping,0.001,5,jacobian_condition,median,2517.132133,condition indicator,results/k9_mechanics_sensitivity.csv,
+4,c,36 fits per condition,high_redundancy,heterogeneous_edges,0.001,5,L_relative_error,median,3.2248848760000004,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,heterogeneous_edges,0.001,5,L_relative_error,p90,11.85776005,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,heterogeneous_edges,0.001,5,C_relative_error,median,11.5507065615,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,heterogeneous_edges,0.001,5,C_relative_error,p90,49.17211855,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,heterogeneous_edges,0.001,5,jacobian_condition,median,3384.230263,condition indicator,results/k9_mechanics_sensitivity.csv,
+4,c,36 fits per condition,high_redundancy,high_edge_ratio,0.001,5,L_relative_error,median,2.033428751,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_edge_ratio,0.001,5,L_relative_error,p90,25.286335495,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_edge_ratio,0.001,5,C_relative_error,median,8.2394700815,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_edge_ratio,0.001,5,C_relative_error,p90,26.756598665,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_edge_ratio,0.001,5,jacobian_condition,median,2496.6435245000002,condition indicator,results/k9_mechanics_sensitivity.csv,
+4,c,36 fits per condition,high_redundancy,high_stiffness,0.001,5,L_relative_error,median,2.9148119075,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_stiffness,0.001,5,L_relative_error,p90,25.569049125,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_stiffness,0.001,5,C_relative_error,median,15.850085525,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_stiffness,0.001,5,C_relative_error,p90,38.06367161,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_stiffness,0.001,5,jacobian_condition,median,5530.4231175,condition indicator,results/k9_mechanics_sensitivity.csv,
+4,c,36 fits per condition,high_redundancy,high_storage,0.001,5,L_relative_error,median,2.4168062810000004,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_storage,0.001,5,L_relative_error,p90,7.7791217175,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_storage,0.001,5,C_relative_error,median,8.8499000605,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_storage,0.001,5,C_relative_error,p90,29.13212931,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,high_storage,0.001,5,jacobian_condition,median,2691.2751255000003,condition indicator,results/k9_mechanics_sensitivity.csv,
+4,c,36 fits per condition,high_redundancy,low_edge_ratio,0.001,5,L_relative_error,median,18.31801237,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_edge_ratio,0.001,5,L_relative_error,p90,37.973765695,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_edge_ratio,0.001,5,C_relative_error,median,58.738891540000004,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_edge_ratio,0.001,5,C_relative_error,p90,288.54687635,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_edge_ratio,0.001,5,jacobian_condition,median,178973.78115,condition indicator,results/k9_mechanics_sensitivity.csv,
+4,c,36 fits per condition,high_redundancy,low_stiffness,0.001,5,L_relative_error,median,2.0932713179999998,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_stiffness,0.001,5,L_relative_error,p90,5.1179077455,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_stiffness,0.001,5,C_relative_error,median,9.6450154795,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_stiffness,0.001,5,C_relative_error,p90,31.286494339999997,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_stiffness,0.001,5,jacobian_condition,median,2447.236062,condition indicator,results/k9_mechanics_sensitivity.csv,
+4,c,36 fits per condition,high_redundancy,low_storage,0.001,5,L_relative_error,median,2.907040148,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_storage,0.001,5,L_relative_error,p90,6.1927882325,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_storage,0.001,5,C_relative_error,median,13.493382510000002,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_storage,0.001,5,C_relative_error,p90,63.773429570000005,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,low_storage,0.001,5,jacobian_condition,median,2829.5060895,condition indicator,results/k9_mechanics_sensitivity.csv,
+4,c,36 fits per condition,high_redundancy,reference,0.001,5,L_relative_error,median,3.355907808,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,reference,0.001,5,L_relative_error,p90,7.268160456,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,reference,0.001,5,C_relative_error,median,7.6487858404999995,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,reference,0.001,5,C_relative_error,p90,21.413335039999996,percent,results/k9_mechanics_sensitivity.csv,Separate sensitivity population; not primary noise cohort
+4,c,36 fits per condition,high_redundancy,reference,0.001,5,jacobian_condition,median,2660.632179,condition indicator,results/k9_mechanics_sensitivity.csv,
+4,d,5 fits per condition,high_redundancy,finite_clamp_50x_median_diagonal,0.001,5,L_relative_error,median,4.809053725,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,finite_clamp_50x_median_diagonal,0.001,5,L_relative_error,p90,5.7196304711999995,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,finite_clamp_50x_median_diagonal,0.001,5,C_relative_error,median,4.537195061,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,finite_clamp_50x_median_diagonal,0.001,5,C_relative_error,p90,10.815355012400001,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,ideal_control,0.001,5,L_relative_error,median,3.113474777,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,ideal_control,0.001,5,L_relative_error,p90,4.9046363434,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,ideal_control,0.001,5,C_relative_error,median,17.86113553,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,ideal_control,0.001,5,C_relative_error,p90,27.868187228000004,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,quantization_0p1pct_baseline,0.001,5,L_relative_error,median,4.809875110999999,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,quantization_0p1pct_baseline,0.001,5,L_relative_error,p90,5.9711922384,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,quantization_0p1pct_baseline,0.001,5,C_relative_error,median,17.21523736,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,quantization_0p1pct_baseline,0.001,5,C_relative_error,p90,25.393097432,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,quantization_0p5pct_baseline,0.001,5,L_relative_error,median,4.680525622,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,quantization_0p5pct_baseline,0.001,5,L_relative_error,p90,8.833859277799998,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,quantization_0p5pct_baseline,0.001,5,C_relative_error,median,11.888534069999999,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,quantization_0p5pct_baseline,0.001,5,C_relative_error,p90,16.689004784,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,repeated_all_queries_x3,0.001,5,L_relative_error,median,2.056263792,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,repeated_all_queries_x3,0.001,5,L_relative_error,p90,3.0869918116,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,repeated_all_queries_x3,0.001,5,C_relative_error,median,9.468379873,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,repeated_all_queries_x3,0.001,5,C_relative_error,p90,11.517654862,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,root_gain_plus_5pct,0.001,5,L_relative_error,median,4.697185054,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,root_gain_plus_5pct,0.001,5,L_relative_error,p90,6.628021662,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,root_gain_plus_5pct,0.001,5,C_relative_error,median,24.354481319999998,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,root_gain_plus_5pct,0.001,5,C_relative_error,p90,29.966576844,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_minus_15pct,0.001,5,L_relative_error,median,14.533426190000002,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_minus_15pct,0.001,5,L_relative_error,p90,16.11964531,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_minus_15pct,0.001,5,C_relative_error,median,19.454675029999997,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_minus_15pct,0.001,5,C_relative_error,p90,24.528005254,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_minus_5pct,0.001,5,L_relative_error,median,7.332078246,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_minus_5pct,0.001,5,L_relative_error,p90,9.0272038116,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_minus_5pct,0.001,5,C_relative_error,median,16.152908269999998,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_minus_5pct,0.001,5,C_relative_error,p90,31.011970706000003,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_plus_15pct,0.001,5,L_relative_error,median,12.31117107,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_plus_15pct,0.001,5,L_relative_error,p90,16.92497918,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_plus_15pct,0.001,5,C_relative_error,median,19.01691132,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_plus_15pct,0.001,5,C_relative_error,p90,26.433948077999997,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_plus_5pct,0.001,5,L_relative_error,median,5.533504245,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_plus_5pct,0.001,5,L_relative_error,p90,9.1208395648,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_plus_5pct,0.001,5,C_relative_error,median,33.22406331,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort
+4,d,5 fits per condition,high_redundancy,shunt_bias_plus_5pct,0.001,5,C_relative_error,p90,40.005678986,percent,results/k9_intervention_imperfections.csv,Separate sensitivity population; not primary noise cohort

@@ -1,0 +1,397 @@
+movie,n,cycle_rank,draw_id,replicate,noise_fraction,noise_percent,design,query_count,status,fit_success,fit_residual,jacobian_condition,optimizer_residual_norm,nfev,L_relative_error,C_relative_error,topology_precision,topology_recall,topology_F1
+E3,4,0,0,0,0,0,minimal_exact_budget,14,recovered,True,,,,,7.672583013e-13,4.908775842e-12,1,1,1
+E3,4,0,0,0,0,0,moderate_redundancy,26,fit_complete,True,2.569270783e-08,14759.14291,1.780097453e-07,67,4.265267218e-05,2.128146929e-05,1,1,1
+E3,4,0,0,0,0,0,high_redundancy,50,fit_complete,True,1.141571134e-07,2936.702951,8.167783024e-07,27,3.119607818e-05,7.873581435e-06,1,1,1
+E3,4,0,0,0,0.001,0.1,minimal_exact_budget,9,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,4,0,0,0,0.001,0.1,moderate_redundancy,26,fit_complete,True,0.0008748138607,9905.364584,0.004773174736,48,0.124338743,0.2442238345,1,1,1
+E3,4,0,0,0,0.001,0.1,high_redundancy,50,fit_complete,True,0.0009186166503,3046.687712,0.006813517852,24,0.01990578099,0.04093946248,1,1,1
+E3,5,1,0,0,0,0,minimal_exact_budget,20,recovered,True,,,,,2.404127209e-12,6.800362626e-11,1,1,1
+E3,5,1,0,0,0,0,moderate_redundancy,37,fit_complete,True,4.077039554e-07,37389.73668,3.354387773e-06,97,0.001061737732,0.0005283255648,1,1,1
+E3,5,1,0,0,0,0,high_redundancy,77,fit_complete,True,4.152726438e-08,6685.619659,3.625453952e-07,42,1.545744295e-05,3.02940278e-06,1,1,1
+E3,5,1,0,1,0,0,minimal_exact_budget,20,recovered,True,,,,,2.404127209e-12,6.800362626e-11,1,1,1
+E3,5,1,0,1,0,0,moderate_redundancy,37,fit_complete,True,4.077039554e-07,37389.73668,3.354387773e-06,97,0.001061737732,0.0005283255648,1,1,1
+E3,5,1,0,1,0,0,high_redundancy,77,fit_complete,True,4.152726438e-08,6685.619659,3.625453952e-07,42,1.545744295e-05,3.02940278e-06,1,1,1
+E3,5,1,0,2,0,0,minimal_exact_budget,20,recovered,True,,,,,2.404127209e-12,6.800362626e-11,1,1,1
+E3,5,1,0,2,0,0,moderate_redundancy,37,fit_complete,True,4.077039554e-07,37389.73668,3.354387773e-06,97,0.001061737732,0.0005283255648,1,1,1
+E3,5,1,0,2,0,0,high_redundancy,77,fit_complete,True,4.152726438e-08,6685.619659,3.625453952e-07,42,1.545744295e-05,3.02940278e-06,1,1,1
+E3,5,1,0,3,0,0,minimal_exact_budget,20,recovered,True,,,,,2.404127209e-12,6.800362626e-11,1,1,1
+E3,5,1,0,3,0,0,moderate_redundancy,37,fit_complete,True,4.077039554e-07,37389.73668,3.354387773e-06,97,0.001061737732,0.0005283255648,1,1,1
+E3,5,1,0,3,0,0,high_redundancy,77,fit_complete,True,4.152726438e-08,6685.619659,3.625453952e-07,42,1.545744295e-05,3.02940278e-06,1,1,1
+E3,5,1,0,0,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E3,5,1,0,0,0.0001,0.01,moderate_redundancy,37,fit_complete,True,5.903980248e-05,33777.0754,0.0003616250842,96,0.04861254111,0.03930912661,1,1,1
+E3,5,1,0,0,0.0001,0.01,high_redundancy,77,fit_complete,True,9.389646746e-05,6711.374695,0.000798669623,36,0.002696987699,0.04036407671,1,1,1
+E3,5,1,0,1,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E3,5,1,0,1,0.0001,0.01,moderate_redundancy,37,fit_complete,True,9.494483399e-05,27887.15195,0.0005481436415,85,0.1268891151,0.04825616452,0.8333333333,1,0.9090909091
+E3,5,1,0,1,0.0001,0.01,high_redundancy,77,fit_complete,True,8.226077384e-05,6485.357969,0.000782078724,41,0.01508151736,0.01278548738,1,1,1
+E3,5,1,0,2,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E3,5,1,0,2,0.0001,0.01,moderate_redundancy,37,fit_complete,True,6.998747375e-05,31289.63634,0.0004065284946,101,0.08087073247,0.04195725308,1,1,1
+E3,5,1,0,2,0.0001,0.01,high_redundancy,77,fit_complete,True,8.10786355e-05,6601.861723,0.00072799682,39,0.006247447112,0.02715909765,1,1,1
+E3,5,1,0,3,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E3,5,1,0,3,0.0001,0.01,moderate_redundancy,37,fit_complete,True,9.937036907e-05,35397.36523,0.0005160402063,92,0.03697776881,0.01475117,1,1,1
+E3,5,1,0,3,0.0001,0.01,high_redundancy,77,fit_complete,True,9.529380715e-05,6685.869455,0.0008103566912,40,0.003845070286,0.05069288019,1,1,1
+E3,5,1,0,0,0.0003,0.03,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,0,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002350725474,31216.82011,0.001239239512,108,0.1378474148,0.2529453531,1,1,1
+E3,5,1,0,0,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002538852668,6488.768228,0.002295625568,35,0.01312441522,0.06132546524,1,1,1
+E3,5,1,0,1,0.0003,0.03,minimal_exact_budget,12,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,1,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.00023448736,29372.97561,0.001336031478,75,0.09994841315,0.06804343701,0.8333333333,1,0.9090909091
+E3,5,1,0,1,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002280460493,6360.474114,0.002112253173,36,0.02035672698,0.03728920305,1,1,1
+E3,5,1,0,2,0.0003,0.03,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,2,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.000212255668,27943.74896,0.001307769998,103,0.1588433022,0.3095223188,0.8333333333,1,0.9090909091
+E3,5,1,0,2,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002535329892,6717.03845,0.002262532375,31,0.008819050902,0.1302049981,1,1,1
+E3,5,1,0,3,0.0003,0.03,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,3,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002047924142,22995.80295,0.001222257501,88,0.1985288505,0.04919160226,0.8333333333,1,0.9090909091
+E3,5,1,0,3,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002599673167,6805.52339,0.002228266563,38,0.01298261787,0.06062385067,1,1,1
+E3,5,1,0,0,0.001,0.1,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,0,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0008916181969,52599.60893,0.00477600129,120,0.4706105398,0.1825489507,0.8333333333,1,0.9090909091
+E3,5,1,0,0,0.001,0.1,high_redundancy,77,fit_complete,True,0.0009808118111,5273.460969,0.008284042649,31,0.102936316,0.2014205856,0.8333333333,1,0.9090909091
+E3,5,1,0,1,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,1,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0005123661835,45638.12824,0.003122206986,101,0.1466480479,0.5333310125,0.7142857143,1,0.8333333333
+E3,5,1,0,1,0.001,0.1,high_redundancy,77,fit_complete,True,0.0009235421996,5151.604235,0.007120314076,33,0.1159282227,0.01329147956,1,1,1
+E3,5,1,0,2,0.001,0.1,minimal_exact_budget,12,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,2,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0006839971808,56800.21581,0.00447762542,80,0.2884103437,0.5426210466,0.8333333333,1,0.9090909091
+E3,5,1,0,2,0.001,0.1,high_redundancy,77,fit_complete,True,0.0009015272773,6058.457246,0.007968809844,32,0.03701218738,0.1862762935,1,1,1
+E3,5,1,0,3,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,3,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0009098378185,15032.57793,0.004145984082,67,0.4114712693,0.3420109138,0.8333333333,1,0.9090909091
+E3,5,1,0,3,0.001,0.1,high_redundancy,77,fit_complete,True,0.001093148318,6844.539207,0.00889198856,34,0.03764522043,0.2258400235,1,1,1
+E3,5,1,0,0,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,0,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.001831286448,4188.228724,0.01129390476,52,0.6397310036,0.2554373989,0.625,1,0.7692307692
+E3,5,1,0,0,0.003,0.3,high_redundancy,77,fit_complete,True,0.00271314239,17676.62556,0.0223193079,40,0.1243710015,0.9627191341,1,1,1
+E3,5,1,0,1,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,1,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002508584086,92527.28012,0.01500038978,167,0.565668005,3.175187396,0.7142857143,1,0.8333333333
+E3,5,1,0,1,0.003,0.3,high_redundancy,77,fit_complete,True,0.003165512752,6063.532618,0.02811981107,27,0.05734792153,0.3701668084,0.8333333333,1,0.9090909091
+E3,5,1,0,2,0.003,0.3,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,2,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002003322385,22927.40453,0.0140110693,116,0.4687105734,0.7585560559,0.625,1,0.7692307692
+E3,5,1,0,2,0.003,0.3,high_redundancy,77,fit_complete,True,0.002522494745,27693.77269,0.02235598197,43,0.1533974668,0.634621187,1,1,1
+E3,5,1,0,3,0.003,0.3,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,0,3,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.001364355198,8155.714172,0.00817691318,106,0.7891183317,0.8845875984,0.625,1,0.7692307692
+E3,5,1,0,3,0.003,0.3,high_redundancy,77,fit_complete,True,0.002643366126,28743.88173,0.02278956181,38,0.1100205808,0.5711733168,0.8333333333,1,0.9090909091
+E3,5,1,1,0,0,0,minimal_exact_budget,20,recovered,True,,,,,1.997809067e-12,3.343102107e-11,1,1,1
+E3,5,1,1,0,0,0,moderate_redundancy,37,fit_complete,True,1.732662145e-06,42520.57284,1.410857104e-05,179,0.005342266134,0.003514142624,1,1,1
+E3,5,1,1,0,0,0,high_redundancy,77,fit_complete,True,5.023641217e-08,7240.023135,4.462443498e-07,34,2.202645614e-05,4.876192117e-06,1,1,1
+E3,5,1,1,1,0,0,minimal_exact_budget,20,recovered,True,,,,,1.997809067e-12,3.343102107e-11,1,1,1
+E3,5,1,1,1,0,0,moderate_redundancy,37,fit_complete,True,1.732662145e-06,42520.57284,1.410857104e-05,179,0.005342266134,0.003514142624,1,1,1
+E3,5,1,1,1,0,0,high_redundancy,77,fit_complete,True,5.023641217e-08,7240.023135,4.462443498e-07,34,2.202645614e-05,4.876192117e-06,1,1,1
+E3,5,1,1,2,0,0,minimal_exact_budget,20,recovered,True,,,,,1.997809067e-12,3.343102107e-11,1,1,1
+E3,5,1,1,2,0,0,moderate_redundancy,37,fit_complete,True,1.732662145e-06,42520.57284,1.410857104e-05,179,0.005342266134,0.003514142624,1,1,1
+E3,5,1,1,2,0,0,high_redundancy,77,fit_complete,True,5.023641217e-08,7240.023135,4.462443498e-07,34,2.202645614e-05,4.876192117e-06,1,1,1
+E3,5,1,1,3,0,0,minimal_exact_budget,20,recovered,True,,,,,1.997809067e-12,3.343102107e-11,1,1,1
+E3,5,1,1,3,0,0,moderate_redundancy,37,fit_complete,True,1.732662145e-06,42520.57284,1.410857104e-05,179,0.005342266134,0.003514142624,1,1,1
+E3,5,1,1,3,0,0,high_redundancy,77,fit_complete,True,5.023641217e-08,7240.023135,4.462443498e-07,34,2.202645614e-05,4.876192117e-06,1,1,1
+E3,5,1,1,0,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E3,5,1,1,0,0.0001,0.01,moderate_redundancy,37,fit_complete,True,8.424537183e-05,35561.29091,0.0005221719928,178,0.07983630178,0.0506828934,1,1,1
+E3,5,1,1,0,0.0001,0.01,high_redundancy,77,fit_complete,True,7.498062727e-05,7109.046888,0.000638409912,35,0.01128346549,0.02265325944,1,1,1
+E3,5,1,1,1,0.0001,0.01,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,1,0.0001,0.01,moderate_redundancy,37,fit_complete,True,9.116643218e-05,48358.73014,0.0004492588177,209,0.07062875647,0.04192971381,1,1,1
+E3,5,1,1,1,0.0001,0.01,high_redundancy,77,fit_complete,True,9.555280358e-05,7040.371259,0.0008005425493,35,0.01359876877,0.01000612203,1,1,1
+E3,5,1,1,2,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E3,5,1,1,2,0.0001,0.01,moderate_redundancy,37,fit_complete,True,5.812928866e-05,45816.95982,0.000328633881,198,0.0414567037,0.02271712484,1,1,1
+E3,5,1,1,2,0.0001,0.01,high_redundancy,77,fit_complete,True,8.668411184e-05,7232.895655,0.0007235505364,28,0.001616713843,0.02447764532,1,1,1
+E3,5,1,1,3,0.0001,0.01,minimal_exact_budget,14,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,3,0.0001,0.01,moderate_redundancy,37,fit_complete,True,8.833190649e-05,43448.18312,0.0004842003737,159,0.03277769072,0.04157813348,1,1,1
+E3,5,1,1,3,0.0001,0.01,high_redundancy,77,fit_complete,True,0.0001017829669,7234.879472,0.0008693167757,29,0.002318254307,0.01929477037,1,1,1
+E3,5,1,1,0,0.0003,0.03,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,0,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002081108079,24314.46133,0.001382879841,165,0.2380702792,0.04255897602,0.8333333333,1,0.9090909091
+E3,5,1,1,0,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002968185998,7380.758006,0.002629110952,29,0.01503240401,0.03488504483,1,1,1
+E3,5,1,1,1,0.0003,0.03,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,1,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002377843205,90830.79063,0.001509607942,136,0.08082940775,0.5772523915,0.8333333333,1,0.9090909091
+E3,5,1,1,1,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0003001255146,6782.602459,0.002671675231,28,0.03738560754,0.05692455916,1,1,1
+E3,5,1,1,2,0.0003,0.03,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,2,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002258726487,19503.96666,0.00155344374,153,0.3186207081,0.4528221248,0.8333333333,1,0.9090909091
+E3,5,1,1,2,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002692519231,7146.780251,0.002392566067,23,0.02429377006,0.03138297777,1,1,1
+E3,5,1,1,3,0.0003,0.03,minimal_exact_budget,14,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,3,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0001988132172,47576.15259,0.001084909005,200,0.06481527495,0.395905585,1,1,1
+E3,5,1,1,3,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002531320845,7277.776481,0.002198913324,34,0.007473936178,0.02917265591,1,1,1
+E3,5,1,1,0,0.001,0.1,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,0,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.000874573534,65847.65066,0.005120940381,110,0.3300256378,0.7901580162,0.8333333333,1,0.9090909091
+E3,5,1,1,0,0.001,0.1,high_redundancy,77,fit_complete,True,0.00075900263,6895.628494,0.006964583548,25,0.04993205774,0.2697693408,1,1,1
+E3,5,1,1,1,0.001,0.1,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,1,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.000701277502,34559.74165,0.004580458865,101,0.4824341345,0.7804803265,0.6666666667,0.8,0.7272727273
+E3,5,1,1,1,0.001,0.1,high_redundancy,77,fit_complete,True,0.001002690808,7148.124695,0.00910886726,29,0.01970075421,0.2189414005,1,1,1
+E3,5,1,1,2,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,2,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0009041741485,67064.1163,0.005187660009,145,0.3862184536,0.8477115002,0.8333333333,1,0.9090909091
+E3,5,1,1,2,0.001,0.1,high_redundancy,77,fit_complete,True,0.001057380129,6167.903152,0.009244681366,27,0.06807800197,0.1423820056,1,1,1
+E3,5,1,1,3,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,3,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0008440875645,80750.07054,0.004979840953,112,0.227218042,0.7598467066,0.6666666667,0.8,0.7272727273
+E3,5,1,1,3,0.001,0.1,high_redundancy,77,fit_complete,True,0.001037653865,7326.318214,0.009087188221,34,0.01488034572,0.1885012865,1,1,1
+E3,5,1,1,0,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,0,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.001763539251,167949.3704,0.01108486168,150,0.2674065468,1.115169447,1,0.8,0.8888888889
+E3,5,1,1,0,0.003,0.3,high_redundancy,77,fit_complete,True,0.002343984834,7835.727864,0.02080206897,32,0.0362017659,0.5895639433,1,1,1
+E3,5,1,1,1,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,1,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.001751131534,109227.7542,0.01053018078,184,0.1960047652,0.7098123498,1,1,1
+E3,5,1,1,1,0.003,0.3,high_redundancy,77,fit_complete,True,0.002526614574,24205.04013,0.02121085074,33,0.03127309042,0.7668211651,1,1,1
+E3,5,1,1,2,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,2,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.00238089749,9263.235031,0.01367756072,94,0.6140865985,0.4471653378,0.7142857143,1,0.8333333333
+E3,5,1,1,2,0.003,0.3,high_redundancy,77,fit_complete,True,0.002067676246,41357.60116,0.0200289452,39,0.2640878184,0.7089789175,0.8,0.8,0.8
+E3,5,1,1,3,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,5,1,1,3,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002655354498,47078.25182,0.01562619437,156,0.3905800768,2.371210583,0.8333333333,1,0.9090909091
+E3,5,1,1,3,0.003,0.3,high_redundancy,77,fit_complete,True,0.002943458038,6699.560255,0.0273001482,28,0.04118977242,0.2365842462,0.8333333333,1,0.9090909091
+E3,6,1,0,0,0,0,minimal_exact_budget,27,recovered,True,,,,,2.683087837e-12,6.636722275e-11,1,1,1
+E3,6,1,0,0,0,0,moderate_redundancy,50,fit_complete,True,1.501698381e-06,92452.18696,1.420485282e-05,208,0.005052479176,0.00501968927,1,1,1
+E3,6,1,0,0,0,0,high_redundancy,110,fit_complete,True,3.121584545e-08,16831.78756,3.349083411e-07,49,1.41744883e-05,4.920763216e-06,1,1,1
+E3,6,1,0,0,0.001,0.1,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E3,6,1,0,0,0.001,0.1,moderate_redundancy,50,fit_complete,True,0.0007935813935,725286.5527,0.005475928685,150,0.558095589,1.371007021,0.625,0.8333333333,0.7142857143
+E3,6,1,0,0,0.001,0.1,high_redundancy,110,fit_complete,True,0.0008638357868,73924.41033,0.009610213935,45,0.07530124405,0.6083107431,0.8571428571,1,0.9230769231
+E4,4,0,0,0,0,0,minimal_exact_budget,14,recovered,True,,,,,2.388839212e-13,1.636660696e-12,1,1,1
+E4,4,0,0,0,0,0,moderate_redundancy,26,fit_complete,True,2.685292918e-08,4321.835168,1.83189167e-07,83,1.817305929e-05,1.841625981e-05,1,1,1
+E4,4,0,0,0,0,0,high_redundancy,50,fit_complete,True,8.417383792e-08,964.0040915,5.871762993e-07,28,1.148072818e-05,6.053517131e-06,1,1,1
+E4,4,0,0,0,0.001,0.1,minimal_exact_budget,9,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,4,0,0,0,0.001,0.1,moderate_redundancy,26,fit_complete,True,0.0005360337989,3759.488156,0.003108295076,61,0.07077328953,0.1125350536,1,1,1
+E4,4,0,0,0,0.001,0.1,high_redundancy,50,fit_complete,True,0.0008768022916,966.2689148,0.005974891973,19,0.0172765791,0.09481489688,1,1,1
+E4,5,0,0,0,0,0,minimal_exact_budget,20,recovered,True,,,,,1.575703855e-12,1.515806332e-11,1,1,1
+E4,5,0,0,0,0,0,moderate_redundancy,37,fit_complete,True,1.272662058e-06,17458.3499,1.018117293e-05,73,0.002692167382,0.001681271977,1,1,1
+E4,5,0,0,0,0,0,high_redundancy,77,fit_complete,True,3.193994032e-08,3575.416131,2.860200738e-07,33,1.13683962e-05,3.865086813e-06,1,1,1
+E4,5,0,0,1,0,0,minimal_exact_budget,20,recovered,True,,,,,1.575703855e-12,1.515806332e-11,1,1,1
+E4,5,0,0,1,0,0,moderate_redundancy,37,fit_complete,True,1.272662058e-06,17458.3499,1.018117293e-05,73,0.002692167382,0.001681271977,1,1,1
+E4,5,0,0,1,0,0,high_redundancy,77,fit_complete,True,3.193994032e-08,3575.416131,2.860200738e-07,33,1.13683962e-05,3.865086813e-06,1,1,1
+E4,5,0,0,2,0,0,minimal_exact_budget,20,recovered,True,,,,,1.575703855e-12,1.515806332e-11,1,1,1
+E4,5,0,0,2,0,0,moderate_redundancy,37,fit_complete,True,1.272662058e-06,17458.3499,1.018117293e-05,73,0.002692167382,0.001681271977,1,1,1
+E4,5,0,0,2,0,0,high_redundancy,77,fit_complete,True,3.193994032e-08,3575.416131,2.860200738e-07,33,1.13683962e-05,3.865086813e-06,1,1,1
+E4,5,0,0,3,0,0,minimal_exact_budget,20,recovered,True,,,,,1.575703855e-12,1.515806332e-11,1,1,1
+E4,5,0,0,3,0,0,moderate_redundancy,37,fit_complete,True,1.272662058e-06,17458.3499,1.018117293e-05,73,0.002692167382,0.001681271977,1,1,1
+E4,5,0,0,3,0,0,high_redundancy,77,fit_complete,True,3.193994032e-08,3575.416131,2.860200738e-07,33,1.13683962e-05,3.865086813e-06,1,1,1
+E4,5,0,0,0,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E4,5,0,0,0,0.0001,0.01,moderate_redundancy,37,fit_complete,True,7.280478327e-05,16670.02168,0.0004112349247,74,0.01699203782,0.02892572721,1,1,1
+E4,5,0,0,0,0.0001,0.01,high_redundancy,77,fit_complete,True,7.578675171e-05,3538.505571,0.0006707599714,29,0.005001010637,0.01836526241,1,1,1
+E4,5,0,0,1,0.0001,0.01,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,1,0.0001,0.01,moderate_redundancy,37,fit_complete,True,8.869012005e-05,16334.58649,0.0005412562985,67,0.03506467394,0.06214958026,1,1,1
+E4,5,0,0,1,0.0001,0.01,high_redundancy,77,fit_complete,True,9.796221133e-05,3487.604212,0.0009082962004,30,0.01008495389,0.01022761592,1,1,1
+E4,5,0,0,2,0.0001,0.01,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,2,0.0001,0.01,moderate_redundancy,37,fit_complete,True,0.0001019229054,17542.55231,0.0005677806933,76,0.003361423202,0.01908926844,1,1,1
+E4,5,0,0,2,0.0001,0.01,high_redundancy,77,fit_complete,True,8.87664262e-05,3538.156622,0.0007433918614,27,0.003509214201,0.01642293032,1,1,1
+E4,5,0,0,3,0.0001,0.01,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,3,0.0001,0.01,moderate_redundancy,37,fit_complete,True,8.810327529e-05,13908.50603,0.0005069654385,61,0.06516693836,0.05830013485,1,1,1
+E4,5,0,0,3,0.0001,0.01,high_redundancy,77,fit_complete,True,9.055094897e-05,3538.137545,0.0007927815393,29,0.00426677555,0.002547527133,1,1,1
+E4,5,0,0,0,0.0003,0.03,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,0,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.000193303595,18897.11244,0.001254697775,60,0.05045921782,0.1163120511,0.8,1,0.8888888889
+E4,5,0,0,0,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002782485282,3455.948377,0.002355844942,27,0.01260745684,0.04205459033,1,1,1
+E4,5,0,0,1,0.0003,0.03,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,1,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002055113567,13060.09528,0.001412400225,76,0.1156579641,0.1103413912,0.8,1,0.8888888889
+E4,5,0,0,1,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002460588003,3574.321284,0.002267647169,28,0.003231913536,0.05575043427,1,1,1
+E4,5,0,0,2,0.0003,0.03,minimal_exact_budget,12,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,2,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002636430064,12520.35231,0.001424722351,58,0.1093242845,0.1413288657,0.8,1,0.8888888889
+E4,5,0,0,2,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002458336068,3371.824604,0.002220018788,25,0.0222820236,0.0330315132,1,1,1
+E4,5,0,0,3,0.0003,0.03,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,3,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002647239019,14067.67291,0.001503082257,71,0.07458884562,0.1426402743,0.8,1,0.8888888889
+E4,5,0,0,3,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002595021792,3595.932458,0.002355152683,24,0.006784109076,0.03846074522,1,1,1
+E4,5,0,0,0,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,0,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0007829385461,14553.20054,0.004685675637,69,0.2626414998,0.4455373671,0.8,1,0.8888888889
+E4,5,0,0,0,0.001,0.1,high_redundancy,77,fit_complete,True,0.000927984356,3269.608744,0.007983580645,22,0.03011604167,0.1342637683,0.8,1,0.8888888889
+E4,5,0,0,1,0.001,0.1,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,1,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0006232772167,8755.504224,0.003841907155,52,0.2032332313,0.548123772,1,1,1
+E4,5,0,0,1,0.001,0.1,high_redundancy,77,fit_complete,True,0.0008805067345,3174.475369,0.007651290933,23,0.05023205579,0.1474947863,0.8,1,0.8888888889
+E4,5,0,0,2,0.001,0.1,minimal_exact_budget,12,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,2,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0007974642675,17705.77776,0.004817070849,73,0.1772449094,0.4958799861,1,1,1
+E4,5,0,0,2,0.001,0.1,high_redundancy,77,fit_complete,True,0.0008384464703,3482.726857,0.007551979543,27,0.0281314441,0.136358639,1,1,1
+E4,5,0,0,3,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,3,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.000773808257,63713.47335,0.00487423051,82,0.3356018699,0.8548202105,0.5,1,0.6666666667
+E4,5,0,0,3,0.001,0.1,high_redundancy,77,fit_complete,True,0.000859813758,3323.362866,0.007828224632,26,0.0266301387,0.3054874656,1,1,1
+E4,5,0,0,0,0.003,0.3,minimal_exact_budget,5,PrecisionFailure: K9 axis inversion produced a nonpositive Green entry at node 2.,False,,,,,,,,,
+E4,5,0,0,0,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002788942398,5269.025272,0.01618493401,77,0.4152773771,0.4334180694,0.6666666667,1,0.8
+E4,5,0,0,0,0.003,0.3,high_redundancy,77,fit_complete,True,0.002476172201,17141.31479,0.02141491868,23,0.0981272731,0.5266646571,1,1,1
+E4,5,0,0,1,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,1,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002446862576,97825.85903,0.01507843475,52,0.3509497896,0.8473244501,0.6666666667,1,0.8
+E4,5,0,0,1,0.003,0.3,high_redundancy,77,fit_complete,True,0.002771219469,3719.582768,0.0244954118,25,0.0398548108,0.4872190783,1,1,1
+E4,5,0,0,2,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,2,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002102770272,60538.65208,0.01388728514,120,0.5148574639,3.964008181,0.75,0.75,0.75
+E4,5,0,0,2,0.003,0.3,high_redundancy,77,fit_complete,True,0.003069290634,3670.834517,0.0263265772,32,0.1857043527,0.5291807926,0.6666666667,1,0.8
+E4,5,0,0,3,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,0,3,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.001610337551,28957.42996,0.009678610277,119,0.4291052972,1.255300974,0.5714285714,1,0.7272727273
+E4,5,0,0,3,0.003,0.3,high_redundancy,77,fit_complete,True,0.002813265304,2621.33279,0.02359527412,30,0.08906340191,0.7345529522,0.8,1,0.8888888889
+E4,5,0,1,0,0,0,minimal_exact_budget,20,recovered,True,,,,,1.244711306e-12,3.321107795e-11,1,1,1
+E4,5,0,1,0,0,0,moderate_redundancy,37,fit_complete,True,1.845149969e-06,14305.14165,1.497277264e-05,132,0.003096914728,0.002557156272,1,1,1
+E4,5,0,1,0,0,0,high_redundancy,77,fit_complete,True,3.121741654e-08,2982.088137,2.771153986e-07,34,1.029802136e-05,2.730266086e-06,1,1,1
+E4,5,0,1,1,0,0,minimal_exact_budget,20,recovered,True,,,,,1.244711306e-12,3.321107795e-11,1,1,1
+E4,5,0,1,1,0,0,moderate_redundancy,37,fit_complete,True,1.845149969e-06,14305.14165,1.497277264e-05,132,0.003096914728,0.002557156272,1,1,1
+E4,5,0,1,1,0,0,high_redundancy,77,fit_complete,True,3.121741654e-08,2982.088137,2.771153986e-07,34,1.029802136e-05,2.730266086e-06,1,1,1
+E4,5,0,1,2,0,0,minimal_exact_budget,20,recovered,True,,,,,1.244711306e-12,3.321107795e-11,1,1,1
+E4,5,0,1,2,0,0,moderate_redundancy,37,fit_complete,True,1.845149969e-06,14305.14165,1.497277264e-05,132,0.003096914728,0.002557156272,1,1,1
+E4,5,0,1,2,0,0,high_redundancy,77,fit_complete,True,3.121741654e-08,2982.088137,2.771153986e-07,34,1.029802136e-05,2.730266086e-06,1,1,1
+E4,5,0,1,3,0,0,minimal_exact_budget,20,recovered,True,,,,,1.244711306e-12,3.321107795e-11,1,1,1
+E4,5,0,1,3,0,0,moderate_redundancy,37,fit_complete,True,1.845149969e-06,14305.14165,1.497277264e-05,132,0.003096914728,0.002557156272,1,1,1
+E4,5,0,1,3,0,0,high_redundancy,77,fit_complete,True,3.121741654e-08,2982.088137,2.771153986e-07,34,1.029802136e-05,2.730266086e-06,1,1,1
+E4,5,0,1,0,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E4,5,0,1,0,0.0001,0.01,moderate_redundancy,37,fit_complete,True,5.715521643e-05,14352.65087,0.0003516377521,142,0.02327112044,0.03737877733,1,1,1
+E4,5,0,1,0,0.0001,0.01,high_redundancy,77,fit_complete,True,8.360038875e-05,2938.710033,0.000737173735,30,0.005519886879,0.008577357668,1,1,1
+E4,5,0,1,1,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,1,0.0001,0.01,moderate_redundancy,37,fit_complete,True,6.767782974e-05,12654.12104,0.0004060941797,128,0.05432686728,0.02193091404,1,1,1
+E4,5,0,1,1,0.0001,0.01,high_redundancy,77,fit_complete,True,0.0001034269077,2984.525458,0.0008290098034,31,0.001096975582,0.009281604698,1,1,1
+E4,5,0,1,2,0.0001,0.01,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,2,0.0001,0.01,moderate_redundancy,37,fit_complete,True,8.083944406e-05,13177.37859,0.0004528382056,135,0.0328156898,0.06914140459,1,1,1
+E4,5,0,1,2,0.0001,0.01,high_redundancy,77,fit_complete,True,9.716294377e-05,2970.978629,0.0007691608842,37,0.002908165538,0.01487804248,1,1,1
+E4,5,0,1,3,0.0001,0.01,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,3,0.0001,0.01,moderate_redundancy,37,fit_complete,True,7.906489931e-05,13338.20101,0.0004597480969,128,0.03678898605,0.02788121961,1,1,1
+E4,5,0,1,3,0.0001,0.01,high_redundancy,77,fit_complete,True,8.125690077e-05,2948.799757,0.0006814093837,31,0.004033460609,0.01758358299,1,1,1
+E4,5,0,1,0,0.0003,0.03,minimal_exact_budget,12,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,0,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002311933969,16907.47824,0.001560624419,147,0.07623473565,0.217485691,0.6666666667,1,0.8
+E4,5,0,1,0,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0003579679523,2801.603452,0.002713062875,28,0.02531129909,0.02282568975,1,1,1
+E4,5,0,1,1,0.0003,0.03,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,1,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002096546946,10420.7521,0.001185971499,144,0.1114991079,0.06082224381,0.6666666667,1,0.8
+E4,5,0,1,1,0.0003,0.03,high_redundancy,77,fit_complete,True,0.000238284743,2906.243843,0.00200805996,32,0.008759554932,0.01915771737,1,1,1
+E4,5,0,1,2,0.0003,0.03,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,2,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002271949598,9342.351188,0.00140159717,137,0.1577580615,0.08824848096,0.8,1,0.8888888889
+E4,5,0,1,2,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002369682941,2916.718527,0.002162780157,29,0.01106446751,0.05259147284,1,1,1
+E4,5,0,1,3,0.0003,0.03,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,3,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002291517618,9652.31033,0.001353140631,138,0.1300437269,0.06811129759,0.8,1,0.8888888889
+E4,5,0,1,3,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002862186869,2915.371548,0.002484464978,26,0.01179117625,0.007259436463,1,1,1
+E4,5,0,1,0,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,0,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0008083083355,6422.739537,0.005420674865,95,0.2728317354,0.4422824742,0.6666666667,1,0.8
+E4,5,0,1,0,0.001,0.1,high_redundancy,77,fit_complete,True,0.0009064215189,2578.077084,0.007917193072,27,0.06362009985,0.1838851043,0.8,1,0.8888888889
+E4,5,0,1,1,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,1,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0006832823033,6701.712686,0.004375781523,129,0.3041641122,0.4266213647,0.6666666667,1,0.8
+E4,5,0,1,1,0.001,0.1,high_redundancy,77,fit_complete,True,0.0007608323326,2566.921999,0.007233643235,29,0.05565762757,0.03907421391,1,1,1
+E4,5,0,1,2,0.001,0.1,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,2,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0008378871282,64116.68676,0.005115833905,111,0.2687760935,0.8135098019,0.6666666667,1,0.8
+E4,5,0,1,2,0.001,0.1,high_redundancy,77,fit_complete,True,0.0008484539675,2829.903533,0.007499309214,27,0.03090434884,0.07646907357,1,1,1
+E4,5,0,1,3,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,3,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0006947071285,14734.85798,0.004036883252,109,0.210111897,0.1995881943,0.8,1,0.8888888889
+E4,5,0,1,3,0.001,0.1,high_redundancy,77,fit_complete,True,0.0008377292548,2992.653957,0.007561551111,28,0.0353844528,0.1990071292,1,1,1
+E4,5,0,1,0,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,0,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.00239239568,79363.65346,0.01455256686,75,0.5392566388,0.5998207751,0.6666666667,1,0.8
+E4,5,0,1,0,0.003,0.3,high_redundancy,77,fit_complete,True,0.002776502306,2291.136171,0.02415413764,26,0.1160465516,0.1770710523,0.8,1,0.8888888889
+E4,5,0,1,1,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,1,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002568135042,97315.15306,0.01490627642,145,0.7339955339,3.811920149,0.5714285714,1,0.7272727273
+E4,5,0,1,1,0.003,0.3,high_redundancy,77,fit_complete,True,0.002156813712,2701.271923,0.02145818694,27,0.08420695568,0.1847649402,1,1,1
+E4,5,0,1,2,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,2,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002148020946,70009.3791,0.01463346186,86,0.266799952,1.460660409,0.6666666667,1,0.8
+E4,5,0,1,2,0.003,0.3,high_redundancy,77,fit_complete,True,0.003076058342,2220.907382,0.02745083643,38,0.08141610214,0.3126352899,1,1,1
+E4,5,0,1,3,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,5,0,1,3,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002691413246,28932.05988,0.01740903616,92,0.36815986,1.200429736,0.6666666667,1,0.8
+E4,5,0,1,3,0.003,0.3,high_redundancy,77,fit_complete,True,0.002626624689,2744.230869,0.02406507757,29,0.07047503918,0.2948874638,1,1,1
+E4,6,1,0,0,0,0,minimal_exact_budget,27,recovered,True,,,,,1.534690526e-12,2.715739394e-11,1,1,1
+E4,6,1,0,0,0,0,moderate_redundancy,50,fit_complete,True,2.119498815e-06,38705.55916,2.010073198e-05,107,0.006719217415,0.004720177967,1,1,1
+E4,6,1,0,0,0,0,high_redundancy,110,fit_complete,True,1.43463572e-08,6739.711941,1.561552428e-07,47,6.83911437e-06,2.502950063e-06,1,1,1
+E4,6,1,0,0,0.001,0.1,minimal_exact_budget,12,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E4,6,1,0,0,0.001,0.1,moderate_redundancy,50,fit_complete,True,0.0007341315308,250220.5297,0.005556768295,136,0.4855570922,0.626805363,0.7142857143,0.8333333333,0.7692307692
+E4,6,1,0,0,0.001,0.1,high_redundancy,110,fit_complete,True,0.0009004256518,7235.315366,0.009746630008,40,0.05599362533,0.4114004711,0.8571428571,1,0.9230769231
+E5,4,0,0,0,0,0,minimal_exact_budget,14,recovered,True,,,,,2.208635617e-13,2.195457148e-12,1,1,1
+E5,4,0,0,0,0,0,moderate_redundancy,26,fit_complete,True,3.494537662e-08,970.8243385,2.591387605e-07,32,1.465504037e-05,5.324001162e-06,1,1,1
+E5,4,0,0,0,0,0,high_redundancy,50,fit_complete,True,1.138446954e-07,183.8399607,8.261163451e-07,24,6.763742234e-06,4.148681535e-06,1,1,1
+E5,4,0,0,0,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,4,0,0,0,0.001,0.1,moderate_redundancy,26,fit_complete,True,0.0007410058035,744.5821037,0.004253944719,21,0.03748817462,0.02732007089,1,1,1
+E5,4,0,0,0,0.001,0.1,high_redundancy,50,fit_complete,True,0.0008290473595,184.4793943,0.006780004869,19,0.004679575543,0.01972029032,1,1,1
+E5,5,1,0,0,0,0,minimal_exact_budget,20,recovered,True,,,,,5.350102475e-13,1.251577831e-11,1,1,1
+E5,5,1,0,0,0,0,moderate_redundancy,37,fit_complete,True,2.358458274e-08,3139.018096,1.93360978e-07,58,2.028181106e-05,8.163148944e-06,1,1,1
+E5,5,1,0,0,0,0,high_redundancy,77,fit_complete,True,1.043489786e-07,375.4882771,8.244959487e-07,25,7.888229826e-06,3.691901317e-06,1,1,1
+E5,5,1,0,1,0,0,minimal_exact_budget,20,recovered,True,,,,,5.350102475e-13,1.251577831e-11,1,1,1
+E5,5,1,0,1,0,0,moderate_redundancy,37,fit_complete,True,2.358458274e-08,3139.018096,1.93360978e-07,58,2.028181106e-05,8.163148944e-06,1,1,1
+E5,5,1,0,1,0,0,high_redundancy,77,fit_complete,True,1.043489786e-07,375.4882771,8.244959487e-07,25,7.888229826e-06,3.691901317e-06,1,1,1
+E5,5,1,0,2,0,0,minimal_exact_budget,20,recovered,True,,,,,5.350102475e-13,1.251577831e-11,1,1,1
+E5,5,1,0,2,0,0,moderate_redundancy,37,fit_complete,True,2.358458274e-08,3139.018096,1.93360978e-07,58,2.028181106e-05,8.163148944e-06,1,1,1
+E5,5,1,0,2,0,0,high_redundancy,77,fit_complete,True,1.043489786e-07,375.4882771,8.244959487e-07,25,7.888229826e-06,3.691901317e-06,1,1,1
+E5,5,1,0,3,0,0,minimal_exact_budget,20,recovered,True,,,,,5.350102475e-13,1.251577831e-11,1,1,1
+E5,5,1,0,3,0,0,moderate_redundancy,37,fit_complete,True,2.358458274e-08,3139.018096,1.93360978e-07,58,2.028181106e-05,8.163148944e-06,1,1,1
+E5,5,1,0,3,0,0,high_redundancy,77,fit_complete,True,1.043489786e-07,375.4882771,8.244959487e-07,25,7.888229826e-06,3.691901317e-06,1,1,1
+E5,5,1,0,0,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E5,5,1,0,0,0.0001,0.01,moderate_redundancy,37,fit_complete,True,5.969448805e-05,2950.428734,0.0004277611905,49,0.0185403226,0.0131210455,1,1,1
+E5,5,1,0,0,0.0001,0.01,high_redundancy,77,fit_complete,True,0.0001074722122,373.8324713,0.0007631412251,24,0.001095753327,0.002356519604,1,1,1
+E5,5,1,0,1,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E5,5,1,0,1,0.0001,0.01,moderate_redundancy,37,fit_complete,True,6.083212973e-05,3043.095283,0.0003713197332,56,0.009666975008,0.01501241362,1,1,1
+E5,5,1,0,1,0.0001,0.01,high_redundancy,77,fit_complete,True,9.452287918e-05,374.7352846,0.0008371480296,24,0.000855170632,0.00243205942,1,1,1
+E5,5,1,0,2,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: Recovered K9 block violates the M-matrix sign condition.,False,,,,,,,,,
+E5,5,1,0,2,0.0001,0.01,moderate_redundancy,37,fit_complete,True,5.998114966e-05,3079.659701,0.000412881265,54,0.007499971589,0.004471980037,1,1,1
+E5,5,1,0,2,0.0001,0.01,high_redundancy,77,fit_complete,True,7.171288067e-05,374.721682,0.0006838655426,23,0.000610158423,0.00204418763,1,1,1
+E5,5,1,0,3,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E5,5,1,0,3,0.0001,0.01,moderate_redundancy,37,fit_complete,True,7.329781083e-05,3022.639685,0.0004316971505,50,0.01269373623,0.01458661321,1,1,1
+E5,5,1,0,3,0.0001,0.01,high_redundancy,77,fit_complete,True,8.39140316e-05,374.5140049,0.0007455060926,24,0.0009716153396,0.002355746193,1,1,1
+E5,5,1,0,0,0.0003,0.03,minimal_exact_budget,15,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,0,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002721146534,3062.280112,0.001539946714,57,0.01176982569,0.01702650231,1,1,1
+E5,5,1,0,0,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002455372375,371.442792,0.002337190269,22,0.003185214561,0.01164316491,1,1,1
+E5,5,1,0,1,0.0003,0.03,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E5,5,1,0,1,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002063401773,3105.242219,0.001344516164,57,0.0108831242,0.03493430481,1,1,1
+E5,5,1,0,1,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002519836448,372.6206266,0.002238910517,17,0.0041697096,0.01741669307,1,1,1
+E5,5,1,0,2,0.0003,0.03,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed Green matrix is not entrywise nonnegative positive definite.,False,,,,,,,,,
+E5,5,1,0,2,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002715596571,2769.818056,0.001551956799,52,0.0349311479,0.04196117411,1,1,1
+E5,5,1,0,2,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002612881734,372.025878,0.002345818267,20,0.002826064189,0.0089372597,1,1,1
+E5,5,1,0,3,0.0003,0.03,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,3,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0002570063742,2669.354585,0.001447072201,53,0.03747725365,0.04499413357,1,1,1
+E5,5,1,0,3,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002783914611,373.8531875,0.002665212263,22,0.002409707658,0.005155695359,1,1,1
+E5,5,1,0,0,0.001,0.1,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,0,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0006418311902,2133.838375,0.00387528484,42,0.1186849416,0.1139814203,0.8333333333,1,0.9090909091
+E5,5,1,0,0,0.001,0.1,high_redundancy,77,fit_complete,True,0.0008959099703,365.9953261,0.008268153133,19,0.005368740133,0.03635831763,1,1,1
+E5,5,1,0,1,0.001,0.1,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,1,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0008268694586,1828.216946,0.005143375355,45,0.2023266778,0.22935992,0.7142857143,1,0.8333333333
+E5,5,1,0,1,0.001,0.1,high_redundancy,77,fit_complete,True,0.0009167593546,369.8072443,0.008692516723,19,0.005252749418,0.0559049781,1,1,1
+E5,5,1,0,2,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,2,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0009368153971,3274.036315,0.005407998861,38,0.1006194101,0.1825120473,0.7142857143,1,0.8333333333
+E5,5,1,0,2,0.001,0.1,high_redundancy,77,fit_complete,True,0.0009472290656,369.9311078,0.008581588032,19,0.006303781505,0.02010302715,1,1,1
+E5,5,1,0,3,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,3,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0005153871411,2561.55075,0.003406817635,50,0.0630393829,0.03952588693,1,1,1
+E5,5,1,0,3,0.001,0.1,high_redundancy,77,fit_complete,True,0.0008209392152,373.6304444,0.006720108008,22,0.004361909467,0.07336319072,1,1,1
+E5,5,1,0,0,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,0,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002093897182,2846.450073,0.01227560697,45,0.1563414062,0.7832371529,0.7142857143,1,0.8333333333
+E5,5,1,0,0,0.003,0.3,high_redundancy,77,fit_complete,True,0.002463971777,319.8760949,0.02246574917,20,0.0512149936,0.09162572781,1,1,1
+E5,5,1,0,1,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,1,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002189076043,1483.098493,0.01329538819,49,0.3337444856,0.116277922,0.625,1,0.7692307692
+E5,5,1,0,1,0.003,0.3,high_redundancy,77,fit_complete,True,0.002519121157,346.3367573,0.02167633769,20,0.02439219811,0.08100281337,1,1,1
+E5,5,1,0,2,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,2,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002271168874,1914.915345,0.0145385139,55,0.2310393781,0.1618924182,0.625,1,0.7692307692
+E5,5,1,0,2,0.003,0.3,high_redundancy,77,fit_complete,True,0.00276245786,338.666616,0.02467989437,21,0.0292199691,0.1038010179,1,1,1
+E5,5,1,0,3,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,0,3,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.001743347676,5962.677049,0.01129797013,65,0.2334959388,0.1982461252,0.625,1,0.7692307692
+E5,5,1,0,3,0.003,0.3,high_redundancy,77,fit_complete,True,0.00218810919,341.319685,0.02078527873,19,0.02605457973,0.10225316,1,1,1
+E5,5,1,1,0,0,0,minimal_exact_budget,20,recovered,True,,,,,4.410841514e-13,7.102253283e-12,1,1,1
+E5,5,1,1,0,0,0,moderate_redundancy,37,fit_complete,True,2.835339352e-08,3569.088792,2.367144289e-07,39,2.57140761e-05,8.452821572e-06,1,1,1
+E5,5,1,1,0,0,0,high_redundancy,77,fit_complete,True,1.005958382e-07,402.2875762,7.763183763e-07,27,7.330106957e-06,3.399425033e-06,1,1,1
+E5,5,1,1,1,0,0,minimal_exact_budget,20,recovered,True,,,,,4.410841514e-13,7.102253283e-12,1,1,1
+E5,5,1,1,1,0,0,moderate_redundancy,37,fit_complete,True,2.835339352e-08,3569.088792,2.367144289e-07,39,2.57140761e-05,8.452821572e-06,1,1,1
+E5,5,1,1,1,0,0,high_redundancy,77,fit_complete,True,1.005958382e-07,402.2875762,7.763183763e-07,27,7.330106957e-06,3.399425033e-06,1,1,1
+E5,5,1,1,2,0,0,minimal_exact_budget,20,recovered,True,,,,,4.410841514e-13,7.102253283e-12,1,1,1
+E5,5,1,1,2,0,0,moderate_redundancy,37,fit_complete,True,2.835339352e-08,3569.088792,2.367144289e-07,39,2.57140761e-05,8.452821572e-06,1,1,1
+E5,5,1,1,2,0,0,high_redundancy,77,fit_complete,True,1.005958382e-07,402.2875762,7.763183763e-07,27,7.330106957e-06,3.399425033e-06,1,1,1
+E5,5,1,1,3,0,0,minimal_exact_budget,20,recovered,True,,,,,4.410841514e-13,7.102253283e-12,1,1,1
+E5,5,1,1,3,0,0,moderate_redundancy,37,fit_complete,True,2.835339352e-08,3569.088792,2.367144289e-07,39,2.57140761e-05,8.452821572e-06,1,1,1
+E5,5,1,1,3,0,0,high_redundancy,77,fit_complete,True,1.005958382e-07,402.2875762,7.763183763e-07,27,7.330106957e-06,3.399425033e-06,1,1,1
+E5,5,1,1,0,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E5,5,1,1,0,0.0001,0.01,moderate_redundancy,37,fit_complete,True,5.001696339e-05,3558.855789,0.0003525264296,32,0.002400690036,0.009544438123,1,1,1
+E5,5,1,1,0,0.0001,0.01,high_redundancy,77,fit_complete,True,9.004791417e-05,401.7611315,0.0007895598984,26,0.0005933335636,0.002991720422,1,1,1
+E5,5,1,1,1,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E5,5,1,1,1,0.0001,0.01,moderate_redundancy,37,fit_complete,True,5.864701172e-05,3512.817895,0.0003910358066,40,0.006019493691,0.01052225758,1,1,1
+E5,5,1,1,1,0.0001,0.01,high_redundancy,77,fit_complete,True,7.529917826e-05,400.9229651,0.0007022786099,25,0.0009064153289,0.006185107057,1,1,1
+E5,5,1,1,2,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: Recovered K9 block violates the M-matrix sign condition.,False,,,,,,,,,
+E5,5,1,1,2,0.0001,0.01,moderate_redundancy,37,fit_complete,True,7.29710819e-05,3487.370562,0.0004438894408,36,0.01195651217,0.01588356532,1,1,1
+E5,5,1,1,2,0.0001,0.01,high_redundancy,77,fit_complete,True,9.227350882e-05,400.8772946,0.0007767263653,24,0.0009021342207,0.004310815056,1,1,1
+E5,5,1,1,3,0.0001,0.01,minimal_exact_budget,15,PrecisionFailure: K9 reconstructed root-coupling vector has a negative entry.,False,,,,,,,,,
+E5,5,1,1,3,0.0001,0.01,moderate_redundancy,37,fit_complete,True,5.028624433e-05,3568.645743,0.0003890724611,37,0.008504091657,0.01552793056,1,1,1
+E5,5,1,1,3,0.0001,0.01,high_redundancy,77,fit_complete,True,8.178153351e-05,400.6465394,0.0007596600711,25,0.0008801434608,0.006504611182,1,1,1
+E5,5,1,1,0,0.0003,0.03,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,0,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0001723471224,3181.915072,0.001145150231,33,0.04258936531,0.04316697134,1,1,1
+E5,5,1,1,0,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002468056767,401.1023573,0.002216315889,22,0.001956249762,0.008675733709,1,1,1
+E5,5,1,1,1,0.0003,0.03,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,1,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0001718859604,2942.773596,0.0009482498551,45,0.06561649316,0.06729410299,0.8333333333,1,0.9090909091
+E5,5,1,1,1,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002617398088,401.1836804,0.00237943096,26,0.003126260062,0.01000051563,1,1,1
+E5,5,1,1,2,0.0003,0.03,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,2,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0001502958532,3137.202154,0.001105343858,28,0.03613905341,0.05080569607,1,1,1
+E5,5,1,1,2,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002096123573,401.1402534,0.001857198811,22,0.002809658976,0.008269843982,1,1,1
+E5,5,1,1,3,0.0003,0.03,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,3,0.0003,0.03,moderate_redundancy,37,fit_complete,True,0.0001852082883,3455.019095,0.001082523206,29,0.02188162693,0.02182832742,1,1,1
+E5,5,1,1,3,0.0003,0.03,high_redundancy,77,fit_complete,True,0.0002113126635,399.9568925,0.001967848045,23,0.003045180103,0.008393945458,1,1,1
+E5,5,1,1,0,0.001,0.1,minimal_exact_budget,11,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,0,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0006373291092,4128.331,0.003454384744,38,0.09395163765,0.04957234329,0.8333333333,1,0.9090909091
+E5,5,1,1,0,0.001,0.1,high_redundancy,77,fit_complete,True,0.0007772342293,395.07347,0.007132997481,21,0.01208278617,0.02242866056,1,1,1
+E5,5,1,1,1,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,1,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0007128053536,2136.155827,0.004868151487,40,0.1711140496,0.09916873362,0.7142857143,1,0.8333333333
+E5,5,1,1,1,0.001,0.1,high_redundancy,77,fit_complete,True,0.0009070825977,394.5984014,0.008651272303,23,0.01195762556,0.0375142336,1,1,1
+E5,5,1,1,2,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,2,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0004712184912,3489.66166,0.003427783583,36,0.07000743185,0.1002979328,0.8333333333,1,0.9090909091
+E5,5,1,1,2,0.001,0.1,high_redundancy,77,fit_complete,True,0.0009016537036,400.2958773,0.007750138049,20,0.004065093741,0.01902327398,1,1,1
+E5,5,1,1,3,0.001,0.1,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,3,0.001,0.1,moderate_redundancy,37,fit_complete,True,0.0006890087899,2393.461027,0.004470619852,32,0.1442437268,0.1111818875,0.7142857143,1,0.8333333333
+E5,5,1,1,3,0.001,0.1,high_redundancy,77,fit_complete,True,0.000847668127,392.5900273,0.007859187221,21,0.007296371037,0.03814696292,1,1,1
+E5,5,1,1,0,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,0,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.001304388896,5091.630656,0.009466918832,40,0.319208984,0.4389695541,0.5714285714,0.8,0.6666666667
+E5,5,1,1,0,0.003,0.3,high_redundancy,77,fit_complete,True,0.002116616714,391.3729949,0.02067673089,26,0.02235227059,0.05005232821,1,1,1
+E5,5,1,1,1,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,1,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.001900761917,1541.503115,0.01354237786,37,0.2690313611,0.1528706623,0.7142857143,1,0.8333333333
+E5,5,1,1,1,0.003,0.3,high_redundancy,77,fit_complete,True,0.002630780343,423.7736584,0.02422680735,19,0.02614420262,0.1651207066,1,1,1
+E5,5,1,1,2,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,2,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.002690428403,4661.871838,0.01875542577,78,0.2945209623,0.4851933919,0.7142857143,1,0.8333333333
+E5,5,1,1,2,0.003,0.3,high_redundancy,77,fit_complete,True,0.00277473007,397.407,0.02444876667,24,0.02846321375,0.2384161369,1,1,1
+E5,5,1,1,3,0.003,0.3,minimal_exact_budget,10,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,5,1,1,3,0.003,0.3,moderate_redundancy,37,fit_complete,True,0.00186458858,1440.259214,0.01382814651,42,0.2381751387,0.1714306932,0.5555555556,1,0.7142857143
+E5,5,1,1,3,0.003,0.3,high_redundancy,77,fit_complete,True,0.002741169713,375.2672909,0.02603049089,17,0.03104427136,0.07350821755,1,1,1
+E5,6,3,0,0,0,0,minimal_exact_budget,27,recovered,True,,,,,1.002091439e-12,4.698910665e-11,1,1,1
+E5,6,3,0,0,0,0,moderate_redundancy,50,fit_complete,True,1.628181009e-08,11021.93988,1.536184787e-07,65,2.28548791e-05,1.181469017e-05,1,1,1
+E5,6,3,0,0,0,0,high_redundancy,110,fit_complete,True,6.412306407e-08,1265.802106,6.041816329e-07,31,6.03643849e-06,2.261129634e-06,1,1,1
+E5,6,3,0,0,0.001,0.1,minimal_exact_budget,13,PrecisionFailure: K9 paired threshold is outside its unique admissible Green interval.,False,,,,,,,,,
+E5,6,3,0,0,0.001,0.1,moderate_redundancy,50,fit_complete,True,0.0007874984661,7585.03976,0.005719824875,132,0.2147603676,0.1698376125,1,1,1
+E5,6,3,0,0,0.001,0.1,high_redundancy,110,fit_complete,True,0.0009426514739,1167.087397,0.01013408649,25,0.03502158873,0.02687225684,0.8888888889,1,0.9411764706

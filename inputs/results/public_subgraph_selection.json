@@ -1,0 +1,827 @@
+{
+  "graphs": {
+    "E3": {
+      "k8_motif": {
+        "detection_persistence": [
+          0.4866666666666667,
+          0.5066666666666667,
+          0.9266666666666666
+        ],
+        "edge_original_nodes": [
+          [
+            219,
+            97
+          ],
+          [
+            97,
+            112
+          ],
+          [
+            97,
+            31
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "induced_subgraph_edge_count": 3,
+        "junction_node": 97,
+        "mean_detection_persistence": 0.64,
+        "minimum_detection_persistence": 0.4866666666666667,
+        "minimum_edge_length_px": 6.379138653596493,
+        "movie": "E3",
+        "node_order": [
+          219,
+          97,
+          112,
+          31
+        ],
+        "node_positions_px": [
+          [
+            245.845950073008,
+            -242.4735519478458
+          ],
+          [
+            252.59707396396004,
+            -247.36861831142872
+          ],
+          [
+            247.52395069107396,
+            -243.50121217553996
+          ],
+          [
+            258.9830106181466,
+            -250.56906450608724
+          ]
+        ],
+        "root_node": 219,
+        "selection": "all center/3-leaf candidates with each center-leaf detection persistence >= 0.40 and no induced leaf-leaf edge; ranked morphology-only by descending minimum persistence, descending mean persistence, movie ID, center ID, then sorted leaf IDs",
+        "sorted_leaf_nodes": [
+          31,
+          112,
+          219
+        ]
+      },
+      "k9": {
+        "4": {
+          "cycle_rank": 0,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "node_order": [
+            159,
+            49,
+            62,
+            240
+          ],
+          "node_positions_px": [
+            [
+              123.08140523105529,
+              -172.75323325481094
+            ],
+            [
+              127.21255572028652,
+              -175.51198001224665
+            ],
+            [
+              131.7657890286942,
+              -176.8244337724585
+            ],
+            [
+              132.20381115830335,
+              -178.33234456480636
+            ]
+          ],
+          "root_index": 0,
+          "selection": "largest connected component (size, then lowest id); seed proximal major-axis node; deterministic breadth-first expansion with neighbors ordered by major-axis projection then node id; induce all edges"
+        },
+        "5": {
+          "cycle_rank": 1,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "node_order": [
+            159,
+            49,
+            62,
+            240,
+            127
+          ],
+          "node_positions_px": [
+            [
+              123.08140523105529,
+              -172.75323325481094
+            ],
+            [
+              127.21255572028652,
+              -175.51198001224665
+            ],
+            [
+              131.7657890286942,
+              -176.8244337724585
+            ],
+            [
+              132.20381115830335,
+              -178.33234456480636
+            ],
+            [
+              135.896469132556,
+              -181.94526068360264
+            ]
+          ],
+          "root_index": 0,
+          "selection": "largest connected component (size, then lowest id); seed proximal major-axis node; deterministic breadth-first expansion with neighbors ordered by major-axis projection then node id; induce all edges"
+        },
+        "6": {
+          "cycle_rank": 1,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "node_order": [
+            159,
+            49,
+            62,
+            240,
+            127,
+            210
+          ],
+          "node_positions_px": [
+            [
+              123.08140523105529,
+              -172.75323325481094
+            ],
+            [
+              127.21255572028652,
+              -175.51198001224665
+            ],
+            [
+              131.7657890286942,
+              -176.8244337724585
+            ],
+            [
+              132.20381115830335,
+              -178.33234456480636
+            ],
+            [
+              135.896469132556,
+              -181.94526068360264
+            ],
+            [
+              134.96580072340453,
+              -180.08909541966054
+            ]
+          ],
+          "root_index": 0,
+          "selection": "largest connected component (size, then lowest id); seed proximal major-axis node; deterministic breadth-first expansion with neighbors ordered by major-axis projection then node id; induce all edges"
+        }
+      }
+    },
+    "E4": {
+      "k8_motif": {
+        "detection_persistence": [
+          0.5066666666666667,
+          1.0,
+          0.48
+        ],
+        "edge_original_nodes": [
+          [
+            693,
+            707
+          ],
+          [
+            707,
+            706
+          ],
+          [
+            707,
+            1530
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "induced_subgraph_edge_count": 3,
+        "junction_node": 707,
+        "mean_detection_persistence": 0.6622222222222223,
+        "minimum_detection_persistence": 0.48,
+        "minimum_edge_length_px": 6.726909153024311,
+        "movie": "E4",
+        "node_order": [
+          693,
+          707,
+          706,
+          1530
+        ],
+        "node_positions_px": [
+          [
+            280.3144116741517,
+            -398.7357256727532
+          ],
+          [
+            286.7086391134518,
+            -400.82502273338
+          ],
+          [
+            293.45918859631587,
+            -400.2048928541459
+          ],
+          [
+            279.608656755586,
+            -401.5665782584267
+          ]
+        ],
+        "root_node": 693,
+        "selection": "all center/3-leaf candidates with each center-leaf detection persistence >= 0.40 and no induced leaf-leaf edge; ranked morphology-only by descending minimum persistence, descending mean persistence, movie ID, center ID, then sorted leaf IDs",
+        "sorted_leaf_nodes": [
+          693,
+          706,
+          1530
+        ]
+      },
+      "k9": {
+        "4": {
+          "cycle_rank": 0,
+          "edges": [
+            [
+              3,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "node_order": [
+            870,
+            1390,
+            850,
+            878
+          ],
+          "node_positions_px": [
+            [
+              173.00312912693894,
+              -481.8059686539122
+            ],
+            [
+              173.21616742814842,
+              -473.9332489867264
+            ],
+            [
+              174.25638998064326,
+              -467.20354672550894
+            ],
+            [
+              180.77848885548744,
+              -471.2885731986484
+            ]
+          ],
+          "root_index": 0,
+          "selection": "largest connected component (size, then lowest id); seed proximal major-axis node; deterministic breadth-first expansion with neighbors ordered by major-axis projection then node id; induce all edges"
+        },
+        "5": {
+          "cycle_rank": 0,
+          "edges": [
+            [
+              2,
+              4
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "node_order": [
+            870,
+            1390,
+            850,
+            878,
+            858
+          ],
+          "node_positions_px": [
+            [
+              173.00312912693894,
+              -481.8059686539122
+            ],
+            [
+              173.21616742814842,
+              -473.9332489867264
+            ],
+            [
+              174.25638998064326,
+              -467.20354672550894
+            ],
+            [
+              180.77848885548744,
+              -471.2885731986484
+            ],
+            [
+              176.68694442850344,
+              -462.4438731598701
+            ]
+          ],
+          "root_index": 0,
+          "selection": "largest connected component (size, then lowest id); seed proximal major-axis node; deterministic breadth-first expansion with neighbors ordered by major-axis projection then node id; induce all edges"
+        },
+        "6": {
+          "cycle_rank": 1,
+          "edges": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "node_order": [
+            870,
+            1390,
+            850,
+            878,
+            858,
+            1310
+          ],
+          "node_positions_px": [
+            [
+              173.00312912693894,
+              -481.8059686539122
+            ],
+            [
+              173.21616742814842,
+              -473.9332489867264
+            ],
+            [
+              174.25638998064326,
+              -467.20354672550894
+            ],
+            [
+              180.77848885548744,
+              -471.2885731986484
+            ],
+            [
+              176.68694442850344,
+              -462.4438731598701
+            ],
+            [
+              169.93346331604707,
+              -460.961018679892
+            ]
+          ],
+          "root_index": 0,
+          "selection": "largest connected component (size, then lowest id); seed proximal major-axis node; deterministic breadth-first expansion with neighbors ordered by major-axis projection then node id; induce all edges"
+        }
+      }
+    },
+    "E5": {
+      "k8_motif": {
+        "detection_persistence": [
+          0.5,
+          1.0,
+          0.5
+        ],
+        "edge_original_nodes": [
+          [
+            448,
+            446
+          ],
+          [
+            446,
+            408
+          ],
+          [
+            446,
+            463
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "induced_subgraph_edge_count": 3,
+        "junction_node": 446,
+        "mean_detection_persistence": 0.6666666666666666,
+        "minimum_detection_persistence": 0.5,
+        "minimum_edge_length_px": 6.80438839312766,
+        "movie": "E5",
+        "node_order": [
+          448,
+          446,
+          408,
+          463
+        ],
+        "node_positions_px": [
+          [
+            260.18717119267984,
+            -259.5240501681717
+          ],
+          [
+            260.9911593111287,
+            -252.7673272561438
+          ],
+          [
+            265.38921203568424,
+            -247.325659782156
+          ],
+          [
+            254.46986840603125,
+            -257.6359242416301
+          ]
+        ],
+        "root_node": 448,
+        "selection": "all center/3-leaf candidates with each center-leaf detection persistence >= 0.40 and no induced leaf-leaf edge; ranked morphology-only by descending minimum persistence, descending mean persistence, movie ID, center ID, then sorted leaf IDs",
+        "sorted_leaf_nodes": [
+          408,
+          448,
+          463
+        ]
+      },
+      "k9": {
+        "4": {
+          "cycle_rank": 0,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "node_order": [
+            937,
+            936,
+            916,
+            935
+          ],
+          "node_positions_px": [
+            [
+              198.91320151308864,
+              -404.04711444348
+            ],
+            [
+              203.9932587447009,
+              -405.5114240320329
+            ],
+            [
+              194.80285516807845,
+              -399.4196308664724
+            ],
+            [
+              210.57870910520435,
+              -407.751374150644
+            ]
+          ],
+          "root_index": 0,
+          "selection": "largest connected component (size, then lowest id); seed proximal major-axis node; deterministic breadth-first expansion with neighbors ordered by major-axis projection then node id; induce all edges"
+        },
+        "5": {
+          "cycle_rank": 1,
+          "edges": [
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "node_order": [
+            937,
+            936,
+            916,
+            935,
+            912
+          ],
+          "node_positions_px": [
+            [
+              198.91320151308864,
+              -404.04711444348
+            ],
+            [
+              203.9932587447009,
+              -405.5114240320329
+            ],
+            [
+              194.80285516807845,
+              -399.4196308664724
+            ],
+            [
+              210.57870910520435,
+              -407.751374150644
+            ],
+            [
+              201.2067162036223,
+              -401.7052358796702
+            ]
+          ],
+          "root_index": 0,
+          "selection": "largest connected component (size, then lowest id); seed proximal major-axis node; deterministic breadth-first expansion with neighbors ordered by major-axis projection then node id; induce all edges"
+        },
+        "6": {
+          "cycle_rank": 3,
+          "edges": [
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "node_order": [
+            937,
+            936,
+            916,
+            935,
+            912,
+            939
+          ],
+          "node_positions_px": [
+            [
+              198.91320151308864,
+              -404.04711444348
+            ],
+            [
+              203.9932587447009,
+              -405.5114240320329
+            ],
+            [
+              194.80285516807845,
+              -399.4196308664724
+            ],
+            [
+              210.57870910520435,
+              -407.751374150644
+            ],
+            [
+              201.2067162036223,
+              -401.7052358796702
+            ],
+            [
+              208.36659159069583,
+              -404.0890528922897
+            ]
+          ],
+          "root_index": 0,
+          "selection": "largest connected component (size, then lowest id); seed proximal major-axis node; deterministic breadth-first expansion with neighbors ordered by major-axis projection then node id; induce all edges"
+        }
+      }
+    }
+  },
+  "k8_selected_frozen": {
+    "detection_persistence": [
+      0.5,
+      1.0,
+      0.5
+    ],
+    "edge_original_nodes": [
+      [
+        448,
+        446
+      ],
+      [
+        446,
+        408
+      ],
+      [
+        446,
+        463
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "induced_subgraph_edge_count": 3,
+    "junction_node": 446,
+    "mean_detection_persistence": 0.6666666666666666,
+    "minimum_detection_persistence": 0.5,
+    "minimum_edge_length_px": 6.80438839312766,
+    "movie": "E5",
+    "node_order": [
+      448,
+      446,
+      408,
+      463
+    ],
+    "node_positions_px": [
+      [
+        260.18717119267984,
+        -259.5240501681717
+      ],
+      [
+        260.9911593111287,
+        -252.7673272561438
+      ],
+      [
+        265.38921203568424,
+        -247.325659782156
+      ],
+      [
+        254.46986840603125,
+        -257.6359242416301
+      ]
+    ],
+    "root_node": 448,
+    "selection": "all center/3-leaf candidates with each center-leaf detection persistence >= 0.40 and no induced leaf-leaf edge; ranked morphology-only by descending minimum persistence, descending mean persistence, movie ID, center ID, then sorted leaf IDs",
+    "sorted_leaf_nodes": [
+      408,
+      448,
+      463
+    ]
+  },
+  "k8_selection_rule": {
+    "candidate": "one center and three distinct neighboring leaves; each center-leaf detection persistence >= 0.40; induced four-node subgraph has exactly the three Y edges and no leaf-leaf edge",
+    "eligible_candidate_count": 47,
+    "minimum_detection_persistence": 0.4,
+    "performance_blind": true,
+    "ranking": [
+      "descending minimum edge persistence",
+      "descending mean edge persistence",
+      "dataset/file ID ascending lexical order",
+      "center-node ID ascending",
+      "sorted leaf-node tuple ascending"
+    ],
+    "root_orientation": "root is the proximal leaf by major-axis projection over the full movie graph (ties by node ID); daughter leaves are ordered by polar angle around the center (ties by node ID)"
+  },
+  "k8_selection_source": {
+    "derived_edge_table": "results/public_graph_edges.csv",
+    "derived_edge_table_sha256": "b9abd910bb9c495814cfd4239896373b45a5f7d0ab4211eff2bcdf28367f4735",
+    "derived_node_table": "results/public_graph_nodes.csv",
+    "derived_node_table_sha256": "fc755a10656a82f68f8e7a13a666da4210ede1834072df29eddfff2ff8871d66",
+    "movie_file_ids": [
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "upstream_commit": "https://github.com/elejeune11/Sarc-Graph\nCommit: ff3d6657654747b1d48bd28c1bdd677ac6c38a27",
+    "upstream_repository": "https://github.com/elejeune11/Sarc-Graph"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "scope": "primary n=5 practical K9 validation cases across E3/E4/E5",
+  "cases_per_design_noise_cutoff": 24,
+  "designs": [
+    "minimal_exact_budget",
+    "moderate_redundancy",
+    "high_redundancy"
+  ],
+  "noise_levels": [
+    0.0,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "cutoffs": [
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35
+  ],
+  "primary_cutoff_unchanged": 0.25,
+  "estimator_changed": false,
+  "new_random_draws": false,
+  "stored_edge_weights_were_available": false,
+  "method": "deterministically replayed the existing n=5 cases with the original fixed parameter and measurement-noise seeds, extracted fitted edge predictions, then rescored all five cutoffs",
+  "replayed_case_design_rows": 360,
+  "weight_prediction_rows": 2640,
+  "maximum_absolute_F1_difference_at_primary_cutoff": 3.33333360913457e-11,
+  "runtime_seconds": 504.45325040002353,
+  "replicate_table": "results/k9_support_cutoff_replicates.csv",
+  "edge_predictions": "results/k9_support_cutoff_edge_predictions.csv",
+  "summary_table": "results/k9_support_cutoff_summary.csv"
+}

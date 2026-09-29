@@ -1,0 +1,27 @@
+{
+  "contexts": 9,
+  "primary_validation": "all three n=5 movie contexts; 2 mechanics draws; all five noise levels; 4 independent measurement replicates",
+  "size_controls": "all n=4 and n=6 contexts; 1 mechanics draw; noise 0 and 0.1%; 1 measurement replicate",
+  "noise_levels_primary": [
+    0.0,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "noise_replicates_primary": 4,
+  "noise_levels_size_controls": [
+    0.0,
+    0.001
+  ],
+  "noise_replicates_size_controls": 1,
+  "designs": [
+    "minimal_exact_budget",
+    "moderate_redundancy",
+    "high_redundancy"
+  ],
+  "support_threshold_normalized": 0.25,
+  "runtime_seconds": 577.5584427001886,
+  "candidate_support_rule": "all undirected pairs fitted; edge present when nonnegative fitted weight >= 0.25 normalized stiffness units, fixed before final suite",
+  "root_policy": "morphology-only proximal major-axis node, reindexed to 0"
+}

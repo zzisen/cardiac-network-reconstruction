@@ -1,0 +1,95 @@
+{
+  "repeat_build_artwork_and_crops_byte_identical": true,
+  "one_shared_blue_green": "#16A6A1",
+  "unknown_topology_same_five_nodes_before_after": "PASS",
+  "palette_only_requested_colors_plus_white": true,
+  "exported_svg_colors": [
+    "#16A6A1",
+    "#3F4548",
+    "#D8E0E3",
+    "#E5543D",
+    "#F2B33D",
+    "#F47C20",
+    "#FFFFFF"
+  ],
+  "pdf_root_labels_all_coral": 5,
+  "pdf_numeric_node_labels_all_graphite": 9,
+  "pdf_label_color_details": [
+    {
+      "label": "r",
+      "color": "#E5543D"
+    },
+    {
+      "label": "r",
+      "color": "#E5543D"
+    },
+    {
+      "label": "1",
+      "color": "#3F4548"
+    },
+    {
+      "label": "2",
+      "color": "#3F4548"
+    },
+    {
+      "label": "3",
+      "color": "#3F4548"
+    },
+    {
+      "label": "r",
+      "color": "#E5543D"
+    },
+    {
+      "label": "r",
+      "color": "#E5543D"
+    },
+    {
+      "label": "1",
+      "color": "#3F4548"
+    },
+    {
+      "label": "2",
+      "color": "#3F4548"
+    },
+    {
+      "label": "3",
+      "color": "#3F4548"
+    },
+    {
+      "label": "r",
+      "color": "#E5543D"
+    },
+    {
+      "label": "1",
+      "color": "#3F4548"
+    },
+    {
+      "label": "2",
+      "color": "#3F4548"
+    },
+    {
+      "label": "3",
+      "color": "#3F4548"
+    }
+  ],
+  "source_hashes_and_crop_membership": "PASS",
+  "accepted_wording_and_removed_artifact_check": "PASS",
+  "pdf_page_mm": [
+    179.99999999998556,
+    120.00000000001387
+  ],
+  "png_pixels": [
+    4251,
+    2834
+  ],
+  "png_dpi": [
+    599.9988,
+    599.9988
+  ],
+  "pdf_svg_raster_images": 0,
+  "output_sha256": {
+    "Figure1_final.png": "9ba1c09b43fe5300262b6ceee6054271c1d5c98e189466298be2e45ad502f5bb",
+    "Figure1_final.pdf": "6f5fc9462013f04f3009878be393db4dd8fe055bd6c2c957a3ccca916e8ff757",
+    "Figure1_final.svg": "84f58f2a733ad03cbfea66d2a00102414420374bdb49faf0618eb63fcbc7d135"
+  }
+}

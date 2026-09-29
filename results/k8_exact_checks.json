@@ -1,0 +1,111 @@
+{
+  "checks": [
+    {
+      "coherent_daughter_swap_max_abs": 6.206335383118183e-17,
+      "coupling_max": 5.141356498342123,
+      "coupling_min": 4.298707446458272,
+      "edge_length_max_px": 8.13821059422726,
+      "edge_length_min_px": 6.804388393127604,
+      "exact_inverse_relative_L_error": null,
+      "exact_inverse_status": "PrecisionFailure: Finite coherent samples did not yield a stable real rational transfer.",
+      "known_tree_fit_message": "`gtol` termination condition is satisfied.",
+      "known_tree_fit_relative_J_error": 2.73224165606628e-14,
+      "known_tree_fit_relative_L_error": 2.9476873166123604e-14,
+      "known_tree_fit_success": true,
+      "labelled_profile_swap_max_abs": 0.007261465250456678,
+      "local_grounding_max": 1.03202568047507,
+      "local_grounding_min": 0.8529512853273332,
+      "mapping": "inverse_length"
+    },
+    {
+      "coherent_daughter_swap_max_abs": 6.206335383118183e-17,
+      "coupling_max": 5.0,
+      "coupling_min": 5.0,
+      "edge_length_max_px": 8.13821059422726,
+      "edge_length_min_px": 6.804388393127604,
+      "exact_inverse_relative_L_error": null,
+      "exact_inverse_status": "PrecisionFailure: Finite coherent samples did not yield a stable real rational transfer.",
+      "known_tree_fit_message": "`gtol` termination condition is satisfied.",
+      "known_tree_fit_relative_J_error": 4.7134802068490706e-14,
+      "known_tree_fit_relative_L_error": 4.777105638690184e-14,
+      "known_tree_fit_success": true,
+      "labelled_profile_swap_max_abs": 0.009371351083252155,
+      "local_grounding_max": 1.03202568047507,
+      "local_grounding_min": 0.8529512853273332,
+      "mapping": "constant"
+    }
+  ],
+  "morphology_motif": {
+    "detection_persistence": [
+      0.5,
+      1.0,
+      0.5
+    ],
+    "edge_original_nodes": [
+      [
+        448,
+        446
+      ],
+      [
+        446,
+        408
+      ],
+      [
+        446,
+        463
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "induced_subgraph_edge_count": 3,
+    "junction_node": 446,
+    "mean_detection_persistence": 0.6666666666666666,
+    "minimum_detection_persistence": 0.5,
+    "minimum_edge_length_px": 6.80438839312766,
+    "movie": "E5",
+    "node_order": [
+      448,
+      446,
+      408,
+      463
+    ],
+    "node_positions_px": [
+      [
+        260.18717119267984,
+        -259.5240501681717
+      ],
+      [
+        260.9911593111287,
+        -252.7673272561438
+      ],
+      [
+        265.38921203568424,
+        -247.325659782156
+      ],
+      [
+        254.46986840603125,
+        -257.6359242416301
+      ]
+    ],
+    "root_node": 448,
+    "selection": "all center/3-leaf candidates with each center-leaf detection persistence >= 0.40 and no induced leaf-leaf edge; ranked morphology-only by descending minimum persistence, descending mean persistence, movie ID, center ID, then sorted leaf IDs",
+    "sorted_leaf_nodes": [
+      408,
+      448,
+      463
+    ]
+  },
+  "status": "complete"
+}

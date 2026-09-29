@@ -1,0 +1,45 @@
+{
+  "detection_persistence": [
+    0.5,
+    1.0,
+    0.5
+  ],
+  "junction": 446,
+  "mapping_alternative": "inverse edge length versus constant edge weights",
+  "metrics_are_model_generated_not_empirical_parameter_recovery": true,
+  "movie": "E5",
+  "node_order": [
+    448,
+    446,
+    408,
+    463
+  ],
+  "root": 448,
+  "seeds_per_setting": 20,
+  "selection_rule": "results/k8_motif_selection_freeze.json",
+  "sensitivity_fit_count": 260,
+  "sensitivity_seed_list": [
+    91001,
+    91002,
+    91003,
+    91004,
+    91005,
+    91006,
+    91007,
+    91008,
+    91009,
+    91010,
+    91011,
+    91012,
+    91013,
+    91014,
+    91015,
+    91016,
+    91017,
+    91018,
+    91019,
+    91020
+  ],
+  "sensitivity_setting_count": 13,
+  "status": "REAL_MORPHOLOGY_MOTIF_USED"
+}

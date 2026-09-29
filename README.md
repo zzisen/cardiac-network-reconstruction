@@ -88,4 +88,3 @@ The full run refreshes the known-tree checks and morphology summaries, unknown-t
 ## Figure fonts
 
 The figure builder uses Arial when installed. Otherwise it automatically uses DejaVu Sans from Matplotlib; Matplotlib's bundled Computer Modern symbol face may supply isolated math glyphs. The `--font-family public` option forces this fallback for testing. No font files are included. Typography and PDF/SVG bytes may differ from the approved Arial artwork, while generated numerical tables are checked with a tight floating-point tolerance.
-

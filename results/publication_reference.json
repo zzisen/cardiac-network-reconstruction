@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "paper_title": "Structural priors determine the measurements needed to reconstruct mechanics in cardiac myofibrillar networks",
+  "morphology_counts": {
+    "E3": {
+      "nodes": 201,
+      "edges": 238,
+      "components": 10
+    },
+    "E4": {
+      "nodes": 1356,
+      "edges": 1550,
+      "components": 76
+    },
+    "E5": {
+      "nodes": 1267,
+      "edges": 1487,
+      "components": 14
+    }
+  },
+  "known_tree_relative_error_max": 1e-10,
+  "coherent_alias_max_abs": 1e-14,
+  "profile_separation_min": 0.007,
+  "exact_minimum_queries_n5": 20,
+  "practical_unknown_topology_noise_0p1_percent": {
+    "minimal_exact_budget": {
+      "median_queries": 10,
+      "median_f1": null
+    },
+    "moderate_redundancy": {
+      "median_queries": 37,
+      "median_f1": 0.898989899
+    },
+    "high_redundancy": {
+      "median_queries": 77,
+      "median_f1": 1.0
+    }
+  },
+  "support_cutoff_0p1_percent_noise_at_0p25": {
+    "minimal_exact_budget": null,
+    "moderate_redundancy": 0.8888888889,
+    "high_redundancy": 1.0
+  },
+  "f1_absolute_tolerance": 1e-08
+}

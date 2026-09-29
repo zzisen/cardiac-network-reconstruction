@@ -1,0 +1,101 @@
+{
+  "selected": {
+    "detection_persistence": [
+      0.5,
+      1.0,
+      0.5
+    ],
+    "edge_original_nodes": [
+      [
+        448,
+        446
+      ],
+      [
+        446,
+        408
+      ],
+      [
+        446,
+        463
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "induced_subgraph_edge_count": 3,
+    "junction_node": 446,
+    "mean_detection_persistence": 0.6666666666666666,
+    "minimum_detection_persistence": 0.5,
+    "minimum_edge_length_px": 6.80438839312766,
+    "movie": "E5",
+    "node_order": [
+      448,
+      446,
+      408,
+      463
+    ],
+    "node_positions_px": [
+      [
+        260.18717119267984,
+        -259.5240501681717
+      ],
+      [
+        260.9911593111287,
+        -252.7673272561438
+      ],
+      [
+        265.38921203568424,
+        -247.325659782156
+      ],
+      [
+        254.46986840603125,
+        -257.6359242416301
+      ]
+    ],
+    "root_node": 448,
+    "selection": "all center/3-leaf candidates with each center-leaf detection persistence >= 0.40 and no induced leaf-leaf edge; ranked morphology-only by descending minimum persistence, descending mean persistence, movie ID, center ID, then sorted leaf IDs",
+    "sorted_leaf_nodes": [
+      408,
+      448,
+      463
+    ]
+  },
+  "selection_rule": {
+    "candidate": "one center and three distinct neighboring leaves; each center-leaf detection persistence >= 0.40; induced four-node subgraph has exactly the three Y edges and no leaf-leaf edge",
+    "eligible_candidate_count": 47,
+    "minimum_detection_persistence": 0.4,
+    "performance_blind": true,
+    "ranking": [
+      "descending minimum edge persistence",
+      "descending mean edge persistence",
+      "dataset/file ID ascending lexical order",
+      "center-node ID ascending",
+      "sorted leaf-node tuple ascending"
+    ],
+    "root_orientation": "root is the proximal leaf by major-axis projection over the full movie graph (ties by node ID); daughter leaves are ordered by polar angle around the center (ties by node ID)"
+  },
+  "source": {
+    "derived_edge_table": "results/public_graph_edges.csv",
+    "derived_edge_table_sha256": "b9abd910bb9c495814cfd4239896373b45a5f7d0ab4211eff2bcdf28367f4735",
+    "derived_node_table": "results/public_graph_nodes.csv",
+    "derived_node_table_sha256": "fc755a10656a82f68f8e7a13a666da4210ede1834072df29eddfff2ff8871d66",
+    "movie_file_ids": [
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "upstream_commit": "https://github.com/elejeune11/Sarc-Graph\nCommit: ff3d6657654747b1d48bd28c1bdd677ac6c38a27",
+    "upstream_repository": "https://github.com/elejeune11/Sarc-Graph"
+  }
+}

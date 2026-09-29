@@ -1,0 +1,84 @@
+{
+  "description": "Drawing coordinates only; arbitrary lengths carry no scientific weights. Edges for branch and unknown are loaded unchanged from public_subgraph_selection.json.",
+  "path": {
+    "provenance": "Endpoint-rooted positive Jacobi path; mathematical control in the final terminology manuscript, Results R1.",
+    "positions": [
+      [
+        -135,
+        0
+      ],
+      [
+        -45,
+        0
+      ],
+      [
+        45,
+        0
+      ],
+      [
+        135,
+        0
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "branch": {
+    "provenance": "Frozen E5 Y motif, original node order [448, 446, 408, 463]. Topology-preserving schematic relayout.",
+    "positions": [
+      [
+        -105,
+        0
+      ],
+      [
+        -20,
+        0
+      ],
+      [
+        85,
+        -46
+      ],
+      [
+        85,
+        46
+      ]
+    ]
+  },
+  "unknown": {
+    "provenance": "Same fixed E3 five-node set [159,49,62,240,127] in structure and recovery. Positions are schematic and identical up to panel translation/scale. Gray dashed all-pair possibilities above do not supply a topology prior; lower solid edges retain the frozen source support.",
+    "positions": [
+      [
+        -115,
+        0
+      ],
+      [
+        -40,
+        -50
+      ],
+      [
+        55,
+        -35
+      ],
+      [
+        -25,
+        55
+      ],
+      [
+        95,
+        30
+      ]
+    ]
+  }
+}
