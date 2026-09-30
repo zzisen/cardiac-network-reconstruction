@@ -58,7 +58,7 @@ This reruns the numerical validations and sensitivities, regenerates figure sour
 
 ## Citation
 
-Please cite the study using `CITATION.cff`. Software release version: `1.0.0`. The repository is [zzisen/cardiac-network-reconstruction](https://github.com/zzisen/cardiac-network-reconstruction). No DOI is assigned because Zenodo publication was skipped.
+Please cite the study using `CITATION.cff`. Software release version: `1.0.0`. The repository is [zzisen/cardiac-network-reconstruction](https://github.com/zzisen/cardiac-network-reconstruction). The version-of-record reproducibility archive is available on Zenodo at https://doi.org/10.5281/zenodo.23049835.
 
 ## License
 
