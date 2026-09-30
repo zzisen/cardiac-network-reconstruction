@@ -1,0 +1,10 @@
+20220123_para_optim/
+results/
+notebooks/
+ULI/
+src/model_refactored/
+.idea/
+.ipynb_checkpoints/
+scripts/diff_evo_distr/
+*.pyc
+*.DS_Store

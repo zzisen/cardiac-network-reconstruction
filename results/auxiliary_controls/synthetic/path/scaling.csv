@@ -1,0 +1,9 @@
+n,condition_number,K8_noise_profiles,K8_real_scalar_values_accounted,K8_profile_budget_theorem,K8_runtime_seconds,K8_numeric_status,K9_fixed_growth_thresholds_d,K9_joint_thresholds_d_plus_n
+2,7.75463202926,0,4,0,0.00205719983205,exact_contract_recovered,3,5
+3,6.77631257326,1,9,1,0.00168979982845,exact_contract_recovered,6,9
+4,10.1781408401,2,16,2,0.00238109985366,exact_contract_recovered,10,14
+5,11.2919616131,3,25,3,0.00313490000553,exact_contract_recovered,15,20
+6,12.2457530586,4,36,4,0.0040686998982,exact_contract_recovered,21,27
+7,11.5167778689,5,49,5,0.00499639986083,exact_contract_recovered,28,35
+8,14.8573300036,6,64,6,0.00598100014031,exact_contract_recovered,36,44
+9,11.7915683342,7,81,7,0.000733199995011,PrecisionFailure: Finite coherent samples did not yield a stable real rational transfer.,45,54

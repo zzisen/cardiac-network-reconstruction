@@ -1,0 +1,24 @@
+{
+  "activation_hz": 1.0,
+  "added_noise_intensity": 1e-05,
+  "baseline_active_cycles": "source-model activation cycles; no human data",
+  "coherent_fit_error": null,
+  "dt_s": 0.002,
+  "duration_s": 6.0,
+  "mismatch_features": [
+    "inertial second-order state",
+    "nonlinear and piecewise force-length/force-velocity terms",
+    "activation-dependent stochastic drive",
+    "global load coupling rather than a nearest-neighbour path"
+  ],
+  "model": "Haertter SarcomereModel v0.2.0",
+  "n_coherent_bins": 6,
+  "n_profiles": 4,
+  "n_sarcomeres": 6,
+  "nonlinear_model_is_theorem_class": false,
+  "profile_fit_error": null,
+  "recovered_max_eigenvalue": null,
+  "recovery_error_type": "PrecisionFailure",
+  "recovery_status": "PrecisionFailure: Finite coherent samples did not yield a stable real rational transfer.",
+  "seed": 78031
+}

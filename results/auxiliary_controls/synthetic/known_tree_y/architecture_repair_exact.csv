@@ -1,0 +1,4 @@
+case,method,n,edge_count,cycle_rank,query_or_profile_count,expected_count,J_or_L_relative_error,C_relative_error,coherent_alias_max_abs,profile_node3_max_abs_difference,daughter_swap_J_relative_separation,daughter_swap_remains_positive_passive_model,notes,graph_edge_support_match,recovered_edge_count
+K8_Y_tree_labelled,K8,4,3,0,2,2,8.16079330589e-11,,0,0.00536202239569,0.17534286702,True,known labelled Y tree; synthetic motivated fixture; n-2 profiles,,
+K9_cyclic_general_graph,K9,5,5,1,20,20,1.12596904464e-11,2.63062464803e-10,,,,,unknown-topology connected graph with one cycle; ideal thresholds,True,5
+K8_endpoint_path_coherent_only_control,coherent-only control,6,5,0,0,0,1.02160973774e-15,,,,,,endpoint Weyl spectral measure uniquely reconstructs Jacobi path; profiles redundant,,

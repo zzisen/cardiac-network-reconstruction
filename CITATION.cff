@@ -5,10 +5,10 @@ message: >-
 title: >-
   Structural priors determine the measurements needed to reconstruct mechanics
   in cardiac myofibrillar networks
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-09-30"
 license: MIT
-doi: 10.5281/zenodo.23049835
+doi: 10.5281/zenodo.23051131
 type: software
 repository-code: https://github.com/zzisen/cardiac-network-reconstruction
 authors:

@@ -1,0 +1,2 @@
+retained_nodes,correct_principal_matrix_threshold,incorrect_deleted_edge_threshold,absolute_threshold_shift,semantics
+"0,1",0.57638042354,0.441775553355,0.134604870185,clamped external-edge stiffness remains on retained diagonal

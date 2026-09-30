@@ -15,3 +15,8 @@ E3, E4, and E5 are three example movies, not independent biological replicates. 
 ## Mechanical parameters
 
 Mechanical coefficients are effective, literature-informed model quantities. The release does not claim nodewise empirical calibration or intervention validation.
+## SarcomereModel mismatch-control source
+
+The bounded nonlinear mismatch control uses the SarcomereModel v0.2.0 source snapshot in support/SarcomereModel-v0.2.0. Its upstream README, pyproject metadata, source files, and MIT license are included with the snapshot. The retained observations and configuration are results/auxiliary_controls/nonlinear_mismatch/mismatch_observations.csv and mismatch_summary.json. The P1.1 runner is retained under scripts/auxiliary_controls/legacy_v1_1/code/p11/mismatch.py.
+
+This simulation is outside the passive first-order reciprocal tree model class and is included only as a limitation check. It does not estimate molecular parameters or validate the model with human data. The upstream MIT terms permit redistribution when its license and attribution remain with the source.

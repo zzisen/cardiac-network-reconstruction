@@ -1,0 +1,19 @@
+method,case,n,condition_number,relative_error_target,relative_frobenius_error,coherent_fit_error,profile_fit_error,query_count,runtime_seconds,status
+K8,path,2,7.75463202926,L given calibrated C,3.69588573748e-16,1.16495466814e-15,2.48253415325e-16,,0.00205719983205,exact_contract_recovered
+K9,path,2,7.75463202926,"joint (L,C)",7.71061039659e-16,,,5,0.00100649986416,exact_contract_recovered
+K8,path,3,6.77631257326,L given calibrated C,1.69459979002e-13,7.29401036594e-16,9.00031338188e-16,,0.00168979982845,exact_contract_recovered
+K9,path,3,6.77631257326,"joint (L,C)",1.98176591315e-12,,,9,0.00137800001539,exact_contract_recovered
+K8,path,4,10.1781408401,L given calibrated C,8.39787613919e-13,1.24047825329e-15,5.10067363603e-14,,0.00238109985366,exact_contract_recovered
+K9,path,4,10.1781408401,"joint (L,C)",1.56561563475e-12,,,14,0.00200930004939,exact_contract_recovered
+K8,path,5,11.2919616131,L given calibrated C,1.39341964717e-10,1.89607034594e-15,8.91426432212e-13,,0.00313490000553,exact_contract_recovered
+K9,path,5,11.2919616131,"joint (L,C)",8.87056375e-12,,,20,0.00293330010027,exact_contract_recovered
+K8,path,6,12.2457530586,L given calibrated C,6.86859251786e-09,3.01231134726e-15,2.21475648209e-12,,0.0040686998982,exact_contract_recovered
+K9,path,6,12.2457530586,"joint (L,C)",1.49587787913e-10,,,27,0.00394319999032,exact_contract_recovered
+K8,path,7,11.5167778689,L given calibrated C,2.72874061719e-05,2.5021762528e-15,2.50513870867e-10,,0.00499639986083,exact_contract_recovered
+K9,path,7,11.5167778689,"joint (L,C)",1.66046562568e-09,,,35,0.00681779999286,exact_contract_recovered
+K8,path,8,14.8573300036,L given calibrated C,0.000100361213244,3.89021769859e-15,1.55851295895e-09,,0.00598100014031,exact_contract_recovered
+K9,path,8,14.8573300036,"joint (L,C)",1.22119926942e-08,,,44,0.00695739989169,exact_contract_recovered
+K8,path,9,11.7915683342,L given calibrated C,,,,,0.000733199995011,PrecisionFailure: Finite coherent samples did not yield a stable real rational transfer.
+K9,path,9,11.7915683342,"joint (L,C)",3.5216499532e-08,,,54,0.00798749993555,exact_contract_recovered
+K8,hidden_twin_star_noncyclic_root,4,2.13334141322,J with a cancelled root pole,1.27866910939e-09,2.67407710458e-14,2.41137802452e-13,,0.00274079991505,exact_contract_recovered; reduced_denominator_degree=3
+K8,near_ill_conditioned_path,7,212.495919764,J given calibrated C,3.61482468361e-07,,,,0.00475930003449,exact_contract_recovered
